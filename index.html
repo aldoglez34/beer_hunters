@@ -72,7 +72,7 @@
                         <i class="fas fa-map-marked mb-4" style="font-size: 120px;"></i>
                     </div>
                     <div class="text-center">
-                        <p class="lead">Select location</p>
+                        <p class="lead">Select Location</p>
                     </div>
                 </div>
                 <!-- ? current location -->
@@ -81,7 +81,7 @@
                         <i class="fas fa-map-marker mb-4" style="font-size: 120px;"></i>
                     </div>
                     <div class="text-center">
-                        <p class="lead">Current location</p>
+                        <p class="lead">Current Location</p>
                     </div>
                 </div>
                 <!-- ? random location -->
@@ -90,7 +90,7 @@
                         <i class="fas fa-question mb-4" style="font-size: 120px;"></i>
                     </div>
                     <div class="text-center">
-                        <p class="lead">Random location</p>
+                        <p class="lead">Random Beer</p>
                     </div>
                 </div>
 
@@ -105,10 +105,44 @@
     </div>
 
     <!-- ! RANDOM CONTAINER-->
-    <div class="container shadow-lg p-3 rounded-bottom css_contcolor" id="randomcontainer">
-        <div class="text-center">
-            <h1><b>Beer Name</b></h1>
+    <div class="container shadow-lg p-3 mb-3 rounded-bottom css_contcolor" id="randomcontainer">
+
+        <!-- ? beer name -->
+        <h1 class="text-center mt-3"><b id="r_beername">Beer Name</b></h1>
+
+        <!-- ? beer photo -->
+        <div class="text-center mt-4">
+            <img src="https://i.pinimg.com/236x/fc/7e/ce/fc7ece8e8ee1f5db97577a4622f33975--photo-icon-sad.jpg"
+                alt="Beer Image" width="220" height="300" id="r_beerphoto">
         </div>
+
+        <!-- ? beer details -->
+        <dl class="row mt-1 p-4">
+            <!-- description -->
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9" id="r_beerdescription">Description</dd>
+            <!-- style category name -->
+            <dt class="col-sm-3">Style Category Name</dt>
+            <dd class="col-sm-9" id="r_stylecategoryname">Style Category Name</dd>
+            <!-- style name -->
+            <dt class="col-sm-3">Style Name</dt>
+            <dd class="col-sm-9" id="r_stylename">Style Name</dd>
+            <!-- style description -->
+            <dt class="col-sm-3">Style Description</dt>
+            <dd class="col-sm-9" id="r_styledescription">Style Description</dd>
+            <!-- abv -->
+            <dt class="col-sm-3">Alcohol By Volume</dt>
+            <dd class="col-sm-9" id="r_abv">Alcohol By Volume</dd>
+            <!-- international bitterness units -->
+            <dt class="col-sm-3">International Bitterness Units</dt>
+            <dd class="col-sm-9" id="r_ibu">International Bitterness Units</dd>
+            <!-- availability -->
+            <dt class="col-sm-3">Availability</dt>
+            <dd class="col-sm-9" id="r_availability">Availability</dd>
+
+
+        </dl>
+
     </div>
 
     <!-- ! LINKS -->

@@ -62,56 +62,66 @@ $("#random").on("click", function (event) {
 
         // generate random number from 0 to the all locations lenght
         var r = Math.floor(Math.random() * allLocationIDs.length);
-        
-        // get the id on a var
-        var randomID = allLocationIDs[r];
-        console.log("id randomnly selected: " + randomID);
 
+        // store the object from the json in a var
         var beer = response.data[r];
         console.log(beer);
 
-        // $("#results3").append("<p>Selected beer: " + response.data[randomIndex].name + "</p>");
+        // update the html - name
+        $("#r_beername").text(beer.name);
 
-        // if (response.data[randomIndex].hasOwnProperty("labels")) {
-        //     $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
-        // }
-        // else {
-        //     $("#results3").append("<p>No label to display</p>");
-        // }
-        // if (response.data[randomIndex].hasOwnProperty("description")) {
-        //     $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
-        // }
-        // else {
-        //     $("#results3").append("<p>Beer Description: Not available");
-        // }
-        // if (response.data[randomIndex].hasOwnProperty("style")) {
-        //     $("#results3").append("<p>Beer Category: " + response.data[randomIndex].style.category.name + "</p>");
-        //     $("#results3").append("<p>Beer Style: " + response.data[randomIndex].style.name + "</p>");
-        //     $("#results3").append("<p>Style description: " + response.data[randomIndex].style.description + "</p>");
-        // }
-        // else {
-        //     $("#results3").append("<p>Beer Category: Not available</p>");
-        //     $("#results3").append("<p>Beer Style: Not available</p>");
-        //     $("#results3").append("<p>Style description: Not available</p>");
-        // }
-        // // if (response.data[randomIndex].hasOwnProperty("description")) {
-        // //     $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
-        // // }
-        // // else {
-        // //     $("#results3").append("<p>Beer Description: Not available");
-        // // }
-        // if (response.data[randomIndex].hasOwnProperty("abv")) {
-        //     $("#results3").append("<p>Alcohol by volume: " + response.data[randomIndex].abv + "%</p>");
-        // }
-        // else {
-        //     $("#results3").append("<p>Alcohol by volume: Not available");
-        // }
-        // if (response.data[randomIndex].hasOwnProperty("available")) {
-        //     $("#results3").append("<p>Availability: " + response.data[randomIndex].available.name + "." + response.data[randomIndex].available.description + "</p>");
-        // }
-        // else {
-        //     $("#results3").append("<p>Availability: Not defined");
-        // }
+        // update the html - photo (label)
+        if (beer.hasOwnProperty("labels")) {
+            $("#r_beerphoto").attr("src" + beer.labels.medium + ">");
+        }
+        else {
+            $("#r_beerphoto").attr("src", "https://i.pinimg.com/236x/fc/7e/ce/fc7ece8e8ee1f5db97577a4622f33975--photo-icon-sad.jpg");
+        }
+
+        // update the html - description
+        if (beer.hasOwnProperty("description")) {
+            $("#r_beerdescription").text(beer.description);
+        }
+        else {
+            $("#r_beerdescription").text("");
+        }
+
+        // update the html - style
+        if (beer.hasOwnProperty("style")) {
+            $("#r_stylecategoryname").text(beer.style.category.name);
+            $("#r_stylename").text(beer.style.name);
+            $("#r_styledescription").text(beer.style.description);
+        }
+        else {
+            $("#r_stylecategoryname").text("");
+            $("#r_stylename").text("");
+            $("#r_styledescription").text("");
+        }
+
+        // update the html - abv
+        if (beer.hasOwnProperty("abv")) {
+            $("#r_abv").text(beer.abv);
+        }
+        else {
+            $("#r_abv").text("");
+        }
+
+        // update the html - ibu
+        if (beer.hasOwnProperty("ibu")) {
+            $("#r_ibu").text(beer.ibu);
+        }
+        else {
+            $("#r_ibu").text("");
+        }
+
+        // update the html - available
+        if (beer.hasOwnProperty("available")) {
+            $("#r_availability").text(beer.available.name);
+        }
+        else {
+            $("#r_availability").text("");
+        }
+
         // console.log("Beer name: " + response.data[randomIndex].name);
         // console.log("Category: " + response.data[randomIndex].style.category.name);
         // console.log("Style: " + response.data[randomIndex].style.name);
@@ -126,7 +136,7 @@ $("#random").on("click", function (event) {
         // $.getJSON("master.json", function (master) {
         //     console.log(master.data.length);
         //     for (i = 1; i < master.data.length; i++) {
-        //         if (randomID === master.data[i].C) {
+        //         if (beer.id === master.data[i].C) {
         //             var locationID = master.data[i].G;
         //             console.log(locationID);
         //         }
