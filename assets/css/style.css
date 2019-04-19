@@ -20,6 +20,10 @@ body {
     text-shadow: 2px 2px 5px gray;
 }
 
+#css_slogan {
+    font-size: 25px;
+}
+
 /* ! beer icon on the top left corner (home button) */
 
 #beericon {
@@ -37,13 +41,36 @@ body {
     background-color: rgb(244, 191, 79);
 }
 
-/* ! option icons */
+/* ! option div */
 
-.css_optcol {
+.css_optdiv {
     color: rgb(52, 57, 64);
     cursor: pointer;
 }
 
-.css_optcol:hover {
+.css_optdiv:hover {
     color: ghostwhite !important;
+}
+
+/* ! option icon */
+
+.css_opticon {
+    font-size: 120px;
+}
+
+/* ! make smaller icons on mobile  */
+
+@media screen and (max-width: 600px) {
+    .css_opticon {
+        font-size: 80px;
+    }
+    .css_opticontext {
+        font-size: 20px;
+    }
+    #css_logo {
+        font-size: 50px;
+    }
+    #css_slogan {
+        font-size: 22px;
+    }
 }
