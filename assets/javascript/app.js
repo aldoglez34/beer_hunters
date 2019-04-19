@@ -52,7 +52,7 @@ $("#random").on("click", function (event) {
     var allLocationIDs = [];
 
     // json call to the file taht contains all data
-    $.getJSON("alldata.json", function (response) {
+    $.getJSON("./assets/json/alldata.json", function (response) {
 
         console.log("lenght of json:  (lines i guess)" + response.data.length);
 

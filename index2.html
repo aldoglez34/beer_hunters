@@ -26,6 +26,7 @@
 </style>
 
 <body>
+
     <div id="buttons"><br>
         <button id="location">Location</button>
         <button id="select">Select</button>
@@ -33,31 +34,44 @@
         <button id="random">Random</button>
         <button id="beerhunt">Beer Hunt</button>
     </div>
+
     <div id="results1">
         <div id="map"></div>
     </div>
+
     <div id="results2"></div>
+
     <div id="results3"></div>
+
     <div class="container" style="width:600px;">
+
         <h2>Make your beer choice!</h2><br /><br />
+
         <select name="category" id="category" class="form-control input-lg">
             <option value="">Select category</option>
         </select>
+
         <br />
+
         <select name="type" id="type" class="form-control input-lg">
             <option value="">Select type</option>
         </select>
+
         <br />
+
         <select name="brewery" id="brewery" class="form-control input-lg">
             <option value="">Select brewery</option>
         </select>
+
         <br />
+
         <select name="beer" id="beer" class="form-control input-lg">
             <option value="">Select beer</option>
         </select>
-    </div>
-    <div id="results4"></div>
 
+    </div>
+
+    <div id="results4"></div>
 
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc&callback=initMap&libraries=places"
@@ -138,6 +152,8 @@
             else
                 console.log("geolocation is not supported");
         });
+
+        
         // Random
         var allLocations = [];
         $("#random").on("click", getRandom);
