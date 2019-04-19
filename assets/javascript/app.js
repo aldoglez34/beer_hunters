@@ -64,7 +64,7 @@ $("#random").on("click", function (event) {
 
         // update the html - photo (label)
         if (beer.hasOwnProperty("labels")) {
-            $("#r_beerphoto").attr("src" + beer.labels.medium + ">");
+            $("#r_beerphoto").attr("src", beer.labels.medium);
         }
         else {
             $("#r_beerphoto").attr("src", "https://i.pinimg.com/236x/fc/7e/ce/fc7ece8e8ee1f5db97577a4622f33975--photo-icon-sad.jpg");
