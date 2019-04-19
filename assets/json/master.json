@@ -1,0 +1,7774 @@
+{
+"data": [
+ {
+   "C": "B ID",
+   "D": "Cat ID",
+   "E": "Style ID",
+   "F": "Bwy ID",
+   "G": "Loc ID"
+ },
+ {
+   "C": "c4f2KE",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zTTWa2",
+   "D": "3",
+   "E": "164",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zfP2fK",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "xwYSL2",
+   "D": "1",
+   "E": "5",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "UJGpVS",
+   "D": "3",
+   "E": "35",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "vz5JZ1",
+   "D": "3",
+   "E": "42",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "LcpeBb",
+   "D": "5",
+   "E": "72",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "Yd8G8r",
+   "D": "5",
+   "E": "59",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "iJ329Y",
+   "D": "11",
+   "E": "135",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "O78ldO",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "qGDeH1",
+   "D": "5",
+   "E": "70",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "MgdJep",
+   "D": "2",
+   "E": "24",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "ISTT06",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "v4KRep",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "e9sjBk",
+   "D": "5",
+   "E": "57",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "YZXVKq",
+   "D": "3",
+   "E": "158",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "7z8RTq",
+   "D": "3",
+   "E": "164",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "f5CWb6",
+   "D": "7",
+   "E": "89",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0KEzfx",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KjumXn",
+   "D": "11",
+   "E": "138",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "8M5lCq",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ajbd6g",
+   "D": "1",
+   "E": "14",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "NoNhan",
+   "D": "3",
+   "E": "25",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "pOUbfg",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "jIKwgZ",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "lWygSS",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "fa0oqf",
+   "D": "1",
+   "E": "5",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "HZMvCT",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "GysKeq",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "tw2Iw0",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "GYF0P4",
+   "D": "8",
+   "E": "98",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "j9cp5e",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "5MX880",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "uA3MVL",
+   "D": "8",
+   "E": "98",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Fhw2NF",
+   "D": "8",
+   "E": "98",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "MqTIG4",
+   "D": "3",
+   "E": "44",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "wDgaK8",
+   "D": "5",
+   "E": "72",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "Au0v9G",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "svXHfu",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "hbF6tu",
+   "D": "1",
+   "E": "4",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "MTLa3r",
+   "D": "5",
+   "E": "62",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "6AcqY6",
+   "D": "11",
+   "E": "112",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "RK9Po6",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "yn4ODI",
+   "D": "3",
+   "E": "33",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "2cLm8B",
+   "D": "11",
+   "E": "114",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "DbeLZF",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "aG4Ie2",
+   "D": "3",
+   "E": "31",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "FDpmPR",
+   "D": "11",
+   "E": "115",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "BkSzxg",
+   "D": "1",
+   "E": "20",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "xwLUUb",
+   "D": "11",
+   "E": "109",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "537zpn",
+   "D": "3",
+   "E": "25",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "fDmp62",
+   "D": "11",
+   "E": "117",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "S1oEH9",
+   "D": "1",
+   "E": "5",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "AvtUms",
+   "D": "1",
+   "E": "14",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "3PGxCQ",
+   "D": "11",
+   "E": "170",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "nF8WBb",
+   "D": "5",
+   "E": "57",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "rDnNdd",
+   "D": "5",
+   "E": "59",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "nFcIwJ",
+   "D": "11",
+   "E": "112",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "iT9pf4",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "2ADEYR",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "JDzrBR",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "vXifKs",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "XrRTUJ",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "6gFiUn",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "LR5oG8",
+   "D": "5",
+   "E": "60",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "69tWZj",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "BlcFcv",
+   "D": "7",
+   "E": "76",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "ARoWVg",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "ov7fgF",
+   "D": "1",
+   "E": "18",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "DEojxv",
+   "D": "3",
+   "E": "33",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "9nXV0D",
+   "D": "5",
+   "E": "64",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "zc3p4y",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "x3ijRg",
+   "D": "3",
+   "E": "41",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "sqELhU",
+   "D": "1",
+   "E": "18",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "0HZF08",
+   "D": "3",
+   "E": "40",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "XVWs1B",
+   "D": "8",
+   "E": "97",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "6f6SpY",
+   "D": "5",
+   "E": "72",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "24UMt9",
+   "D": "1",
+   "E": "15",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "qgR2pv",
+   "D": "3",
+   "E": "164",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "bwmm73",
+   "D": "8",
+   "E": "103",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "MDLWPq",
+   "D": "3",
+   "E": "40",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "HXVdFT",
+   "D": "1",
+   "E": "18",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "TQaDOh",
+   "D": "3",
+   "E": "158",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "ZvzhRI",
+   "D": "11",
+   "E": "117",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "7Tfy0M",
+   "D": "5",
+   "E": "62",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "ABAHdk",
+   "D": "3",
+   "E": "37",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "4nRKTH",
+   "D": "3",
+   "E": "41",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "7dkC8e",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "RDEj6L",
+   "D": "3",
+   "E": "31",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "3XBmmp",
+   "D": "3",
+   "E": "31",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "kK34fk",
+   "D": "3",
+   "E": "31",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "cOSoch",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "bHDV83",
+   "D": "3",
+   "E": "36",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "XWveu5",
+   "D": "3",
+   "E": "44",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "NE2Dpl",
+   "D": "7",
+   "E": "89",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "aabOus",
+   "D": "3",
+   "E": "30",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "gEUoCZ",
+   "D": "4",
+   "E": "55",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "hYaduh",
+   "D": "4",
+   "E": "55",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "5TQX99",
+   "D": "4",
+   "E": "55",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "qIa0fL",
+   "D": "3",
+   "E": "32",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "Zd8Cxd",
+   "D": "5",
+   "E": "65",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "Ota9wv",
+   "D": "3",
+   "E": "33",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "b6nCMj",
+   "D": "3",
+   "E": "25",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "fBZZUJ",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "iEMsk8",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ItEVNY",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HIuMUM",
+   "D": "1",
+   "E": "20",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "IyyejS",
+   "D": "1",
+   "E": "18",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "JCo28y",
+   "D": "3",
+   "E": "36",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "uHEs7N",
+   "D": "4",
+   "E": "55",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "fdnFoV",
+   "D": "5",
+   "E": "61",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "8ugUQF",
+   "D": "5",
+   "E": "62",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zrqusY",
+   "D": "3",
+   "E": "28",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "BJFSW8",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "cBZj1z",
+   "D": "1",
+   "E": "3",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "NY86j7",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lEPIZg",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "WaxgGo",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HxW3xw",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "eOVHdT",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "L0eAAB",
+   "D": "3",
+   "E": "40",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "1unO6C",
+   "D": "7",
+   "E": "81",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "nvfMg1",
+   "D": "3",
+   "E": "32",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "kLnpDN",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "PPM1hu",
+   "D": "11",
+   "E": "125",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "J2UGn1",
+   "D": "9",
+   "E": "104",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Beiqbm",
+   "D": "9",
+   "E": "104",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "YXPOTZ",
+   "D": "7",
+   "E": "86",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "kbyHKb",
+   "D": "4",
+   "E": "52",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "bdFoir",
+   "D": "3",
+   "E": "42",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "wRkDGh",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "fGeFvg",
+   "D": "7",
+   "E": "89",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "dS3WFU",
+   "D": "5",
+   "E": "61",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "18Ki63",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "8SiLJi",
+   "D": "3",
+   "E": "43",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "LMONA6",
+   "D": "8",
+   "E": "98",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "hO6U5X",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zLqnaW",
+   "D": "4",
+   "E": "53",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "DvxCJ2",
+   "D": "3",
+   "E": "158",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "HIwvra",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AZgmir",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "xjSOtt",
+   "D": "11",
+   "E": "132",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Ydp0k0",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "PZL75k",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "4A41PO",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "x7GusT",
+   "D": "3",
+   "E": "34",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "JzR6cK",
+   "D": "4",
+   "E": "53",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "GTbXLB",
+   "D": "11",
+   "E": "170",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "xpBGZB",
+   "D": "11",
+   "E": "117",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "qa1QZU",
+   "D": "1",
+   "E": "20",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "04k0TG",
+   "D": "4",
+   "E": "47",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "KY5gtZ",
+   "D": "3",
+   "E": "26",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "PLnqH7",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "v5a7l8",
+   "D": "3",
+   "E": "29",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lyc9as",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "tZkS7X",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "GboTWT",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "zd3xxc",
+   "D": "8",
+   "E": "102",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "1C793t",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "1t3vFB",
+   "D": "1",
+   "E": "18",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "guH320",
+   "D": "5",
+   "E": "62",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "Ontrer",
+   "D": "3",
+   "E": "33",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "ct0Hxz",
+   "D": "7",
+   "E": "90",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "lUt8yP",
+   "D": "7",
+   "E": "90",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "qqOqX9",
+   "D": "11",
+   "E": "112",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "LkfL1Y",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "WHKIRY",
+   "D": "11",
+   "E": "170",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "zhzeah",
+   "D": "3",
+   "E": "40",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "wIRsU0",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "3wh93y",
+   "D": "7",
+   "E": "88",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "Z10a03",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dnUKxu",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "T1YdsG",
+   "D": "11",
+   "E": "122",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "x71Neo",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "EBgR2m",
+   "D": "3",
+   "E": "31",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "zpvlri",
+   "D": "11",
+   "E": "124",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "oEiXJV",
+   "D": "11",
+   "E": "108",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Hh3VFp",
+   "D": "3",
+   "E": "42",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "iTZlLw",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "yQqOSf",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "tMseDR",
+   "D": "4",
+   "E": "46",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "8pAabO",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "3dsDxX",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CtLLsH",
+   "D": "5",
+   "E": "72",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "mXym9s",
+   "D": "3",
+   "E": "44",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "gfFqa1",
+   "D": "1",
+   "E": "13",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "qhppip",
+   "D": "5",
+   "E": "65",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "h2d5zt",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "a1DUfG",
+   "D": "5",
+   "E": "72",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "sghlNk",
+   "D": "8",
+   "E": "93",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "uycrg9",
+   "D": "3",
+   "E": "158",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "ViVJh6",
+   "D": "11",
+   "E": "125",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "ehb1eB",
+   "D": "3",
+   "E": "25",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "bqKaTO",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "C7bzqV",
+   "D": "4",
+   "E": "45",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "bHmQdD",
+   "D": "11",
+   "E": "112",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "giziAd",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "5lW8HD",
+   "D": "3",
+   "E": "28",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "t28a6A",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "PRRZBx",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "hImGQV",
+   "D": "4",
+   "E": "48",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KuiKeS",
+   "D": "3",
+   "E": "44",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "pZEIiV",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "IkgmFq",
+   "D": "3",
+   "E": "29",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "RcyKuX",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "bMv56j",
+   "D": "5",
+   "E": "71",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "9slIEB",
+   "D": "3",
+   "E": "158",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CRw8Gu",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "TpiDMC",
+   "D": "3",
+   "E": "29",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "d2nhC0",
+   "D": "1",
+   "E": "5",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "GwYXdk",
+   "D": "11",
+   "E": "125",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "P3fflp",
+   "D": "5",
+   "E": "61",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "8MMa77",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "W2dlxg",
+   "D": "11",
+   "E": "124",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "qGhR1j",
+   "D": "8",
+   "E": "97",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "SaQFBA",
+   "D": "8",
+   "E": "97",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "dimtrs",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "Abbvjh",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "Dvucvo",
+   "D": "11",
+   "E": "119",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "t9aucT",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "4zruzt",
+   "D": "5",
+   "E": "61",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "MzoCPz",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "VwOYAS",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "WQsARu",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "hd8yE8",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "LXWiDB",
+   "D": "11",
+   "E": "119",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "YCBXba",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "doijNb",
+   "D": "11",
+   "E": "119",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "1P45iR",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "ueYGTP",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "hlynwj",
+   "D": "3",
+   "E": "32",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "eW9IJb",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "mobjLC",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "bQk5Rn",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "jjIwuS",
+   "D": "11",
+   "E": "139",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "G2Vi1J",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "BbrPm8",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "jnOm9n",
+   "D": "11",
+   "E": "134",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "dRIuaV",
+   "D": "2",
+   "E": "24",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "5ON8OO",
+   "D": "2",
+   "E": "24",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "QhHBBX",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "fKinUP",
+   "D": "8",
+   "E": "99",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "30zzKy",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "vNwXnT",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "zYJxUM",
+   "D": "3",
+   "E": "37",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "9OyQXs",
+   "D": "8",
+   "E": "103",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "CMvItN",
+   "D": "4",
+   "E": "48",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "hn9LIa",
+   "D": "7",
+   "E": "90",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "0I5b84",
+   "D": "7",
+   "E": "90",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "LVSSPk",
+   "D": "1",
+   "E": "20",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "WHQisc",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ZDbYzs",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "uhfEWi",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Vuhegf",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "RXEBYd",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "HHG2Nn",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ndgIxK",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "2wvRmF",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "BnYgKN",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "IpcSsv",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ZJJ8yY",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "8lo5KQ",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "DwfEan",
+   "D": "11",
+   "E": "134",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "fMn3Hq",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Y6iD9x",
+   "D": "11",
+   "E": "134",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "3tlrAU",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "UTh8Gm",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "4GgbWG",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1LvpyW",
+   "D": "3",
+   "E": "30",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "4iQV5k",
+   "D": "8",
+   "E": "98",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "hqQhp6",
+   "D": "3",
+   "E": "42",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "dFaMLe",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "utrZWH",
+   "D": "5",
+   "E": "58",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "RsTK7E",
+   "D": "1",
+   "E": "3",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "vzcxNZ",
+   "D": "4",
+   "E": "52",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "hKT9uI",
+   "D": "4",
+   "E": "53",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "nvaDvZ",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AC98pm",
+   "D": "1",
+   "E": "5",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "jcxBhr",
+   "D": "11",
+   "E": "125",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "YBxI4X",
+   "D": "11",
+   "E": "124",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "PSRi4b",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "jBjeGJ",
+   "D": "8",
+   "E": "97",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "OFYff7",
+   "D": "11",
+   "E": "119",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "DGhJbX",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "ebYlhO",
+   "D": "5",
+   "E": "72",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "MtJRP6",
+   "D": "1",
+   "E": "5",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "TavGRG",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "LDb6oj",
+   "D": "11",
+   "E": "125",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kusLBU",
+   "D": "3",
+   "E": "34",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Dn64tp",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "z9eSax",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "bTNGkO",
+   "D": "3",
+   "E": "164",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "H20aOl",
+   "D": "1",
+   "E": "5",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "35wxef",
+   "D": "2",
+   "E": "23",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "YViUzm",
+   "D": "7",
+   "E": "80",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "xjwBeb",
+   "D": "3",
+   "E": "33",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "kvklwS",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "3JrTod",
+   "D": "5",
+   "E": "61",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "9YCuGj",
+   "D": "5",
+   "E": "62",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "ZQkBoF",
+   "D": "3",
+   "E": "37",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Nl1CJp",
+   "D": "3",
+   "E": "37",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "c4ODPx",
+   "D": "11",
+   "E": "134",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Jyj4KZ",
+   "D": "5",
+   "E": "65",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "OJadqc",
+   "D": "11",
+   "E": "132",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "2rqlKs",
+   "D": "1",
+   "E": "13",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "7iFx4r",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "6mTebP",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "pTHBWA",
+   "D": "8",
+   "E": "93",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "pGqazY",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ZK2Swv",
+   "D": "1",
+   "E": "1",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "BdlH6M",
+   "D": "1",
+   "E": "18",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "QHCtPE",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "nxU5Fn",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "2avhYf",
+   "D": "4",
+   "E": "46",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "eueVi6",
+   "D": "4",
+   "E": "52",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "z8iAm9",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "bSQyva",
+   "D": "8",
+   "E": "93",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "q5sbES",
+   "D": "11",
+   "E": "124",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lT9g7O",
+   "D": "3",
+   "E": "42",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "SPbPNt",
+   "D": "11",
+   "E": "124",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4jKDXK",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "h331gl",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "gFe3ro",
+   "D": "7",
+   "E": "89",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "ZJdowf",
+   "D": "5",
+   "E": "59",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "1cLpJP",
+   "D": "7",
+   "E": "80",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "BoJHzM",
+   "D": "5",
+   "E": "62",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "nAr0mR",
+   "D": "5",
+   "E": "63",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "DQW0WA",
+   "D": "5",
+   "E": "62",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "hDKDfU",
+   "D": "5",
+   "E": "62",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "X8qNCS",
+   "D": "5",
+   "E": "61",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "17KZDP",
+   "D": "10",
+   "E": "106",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "8nUyoD",
+   "D": "11",
+   "E": "136",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "O3nY32",
+   "D": "4",
+   "E": "46",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "QtA7tb",
+   "D": "11",
+   "E": "121",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "pSVIAZ",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zqS7ze",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ETtkIW",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "eyYenc",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ygAzC9",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "aztnLa",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "DJcbV1",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "pdLPeS",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Rx4Dnt",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ysyw2P",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4sdq0d",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1UhodH",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "yZruL5",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "vLTky5",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "b65A4y",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "7BGyan",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "mUt5nB",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "69R1Vd",
+   "D": "3",
+   "E": "31",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "CU2xRZ",
+   "D": "3",
+   "E": "33",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "esFZwY",
+   "D": "11",
+   "E": "138",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "9cqNKc",
+   "D": "3",
+   "E": "37",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "oLL7QN",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HiunCp",
+   "D": "1",
+   "E": "8",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "oBALsi",
+   "D": "7",
+   "E": "89",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "VFG5pL",
+   "D": "3",
+   "E": "34",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "jMQlvu",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "8qafAu",
+   "D": "3",
+   "E": "36",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "WCPtV5",
+   "D": "5",
+   "E": "72",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ZVmIsO",
+   "D": "1",
+   "E": "1",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "llmv40",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "trEROu",
+   "D": "5",
+   "E": "60",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "FocTXx",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "S3xcp2",
+   "D": "11",
+   "E": "119",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "CwbQiB",
+   "D": "3",
+   "E": "31",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "4o9Ml2",
+   "D": "11",
+   "E": "132",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "17XX3q",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "U7lF72",
+   "D": "11",
+   "E": "112",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "wJ9ull",
+   "D": "3",
+   "E": "164",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "o4farp",
+   "D": "7",
+   "E": "89",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Cj5RaA",
+   "D": "11",
+   "E": "121",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "nPSHXY",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "DUmEEi",
+   "D": "8",
+   "E": "98",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "GVNZZQ",
+   "D": "8",
+   "E": "97",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "7gKo41",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "avUZok",
+   "D": "3",
+   "E": "25",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "56HXGK",
+   "D": "5",
+   "E": "71",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "coUX1m",
+   "D": "3",
+   "E": "31",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "pq9MUi",
+   "D": "3",
+   "E": "31",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "2YWln7",
+   "D": "3",
+   "E": "31",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "NamZiK",
+   "D": "3",
+   "E": "42",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "Yq3v6n",
+   "D": "7",
+   "E": "84",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "qbeSzR",
+   "D": "8",
+   "E": "93",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "StkEiv",
+   "D": "2",
+   "E": "23",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "gkSM7N",
+   "D": "2",
+   "E": "24",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "K2qBGW",
+   "D": "3",
+   "E": "42",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "J9xszw",
+   "D": "2",
+   "E": "24",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "c9u7Eo",
+   "D": "2",
+   "E": "22",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "Ia4uJ0",
+   "D": "1",
+   "E": "20",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "8LowIZ",
+   "D": "3",
+   "E": "30",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "JfC6wN",
+   "D": "2",
+   "E": "23",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "DGCFAD",
+   "D": "11",
+   "E": "117",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "unQfZE",
+   "D": "2",
+   "E": "24",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "IphbdN",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "8PsCAg",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ER2JSs",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "2CRlqm",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "qUIYuC",
+   "D": "1",
+   "E": "17",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "9HcWSd",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dapUuF",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AFNvz4",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0T4pOY",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Rxu5Bd",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "BJymUV",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "gLBFNH",
+   "D": "1",
+   "E": "5",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "tLwMOd",
+   "D": "3",
+   "E": "41",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "pkEofb",
+   "D": "1",
+   "E": "18",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "yxUgyc",
+   "D": "3",
+   "E": "42",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "4fKoj3",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "yoGDFl",
+   "D": "3",
+   "E": "41",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kZadFf",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "fyj05b",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HSChH3",
+   "D": "8",
+   "E": "103",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "E6kkPh",
+   "D": "3",
+   "E": "41",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ja4TBb",
+   "D": "4",
+   "E": "53",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "NgU9h0",
+   "D": "1",
+   "E": "19",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "Du7C2e",
+   "D": "5",
+   "E": "59",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "i0Hy6x",
+   "D": "7",
+   "E": "84",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "fekpJv",
+   "D": "1",
+   "E": "18",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "QFJ250",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "d16niD",
+   "D": "3",
+   "E": "41",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "24mTU2",
+   "D": "7",
+   "E": "88",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "95tyDm",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "IlrJbh",
+   "D": "3",
+   "E": "33",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "wzCyVT",
+   "D": "11",
+   "E": "119",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "bK4vxh",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "oYED15",
+   "D": "2",
+   "E": "22",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HQ79n0",
+   "D": "3",
+   "E": "40",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "932XO8",
+   "D": "11",
+   "E": "119",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "WTmAem",
+   "D": "11",
+   "E": "119",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "l7Dmxe",
+   "D": "5",
+   "E": "72",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "5LwuwE",
+   "D": "5",
+   "E": "65",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "qpPzL7",
+   "D": "5",
+   "E": "72",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "vmmRA5",
+   "D": "7",
+   "E": "75",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "75agIj",
+   "D": "11",
+   "E": "123",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "HgMkeg",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AEFy0R",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HmjnXt",
+   "D": "3",
+   "E": "26",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "QdPbTF",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "NU4qr0",
+   "D": "3",
+   "E": "42",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Yjd19k",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "yORSh7",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "JW5SJV",
+   "D": "3",
+   "E": "37",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "xXEmDi",
+   "D": "11",
+   "E": "112",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "QefHZY",
+   "D": "5",
+   "E": "62",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "xqbL8h",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "KPu2Ot",
+   "D": "8",
+   "E": "102",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "RsGMGn",
+   "D": "11",
+   "E": "124",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "ULacWY",
+   "D": "11",
+   "E": "136",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "6fJQfz",
+   "D": "5",
+   "E": "59",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "ttJysx",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "9Ylplt",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ceP1Cs",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ePh6fw",
+   "D": "3",
+   "E": "32",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "OxvWPv",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1XAbSf",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "iYbsQ5",
+   "D": "7",
+   "E": "80",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "3wspDn",
+   "D": "1",
+   "E": "16",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "3nrJLN",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "g7a7Uo",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "IRIveF",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "ul1jng",
+   "D": "3",
+   "E": "25",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "HqKYLu",
+   "D": "3",
+   "E": "40",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "VyWf1j",
+   "D": "11",
+   "E": "118",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "CFiVaj",
+   "D": "3",
+   "E": "40",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "N5lJcK",
+   "D": "5",
+   "E": "72",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "rJ51vR",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "YaI6zp",
+   "D": "3",
+   "E": "26",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "FVFucy",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1FBXjy",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "t0iVWe",
+   "D": "3",
+   "E": "32",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "tDKmD5",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "907FUe",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "PsFAwd",
+   "D": "4",
+   "E": "45",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "AI17Hf",
+   "D": "8",
+   "E": "101",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "whlYbK",
+   "D": "3",
+   "E": "40",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "276GV8",
+   "D": "11",
+   "E": "170",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "CWqXDN",
+   "D": "11",
+   "E": "108",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "w7z0LS",
+   "D": "3",
+   "E": "37",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "JoGCC1",
+   "D": "3",
+   "E": "34",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "hy7HsS",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "HG1dy6",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "uec7XF",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "Cn8hSH",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "LVghwn",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "BZGnql",
+   "D": "3",
+   "E": "26",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "5iehRZ",
+   "D": "5",
+   "E": "61",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "GXDZpo",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "cX0XkP",
+   "D": "1",
+   "E": "18",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "UFPFnA",
+   "D": "1",
+   "E": "2",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "GNtxMV",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "dTCluj",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "FAIsfG",
+   "D": "1",
+   "E": "18",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "hf0GB8",
+   "D": "1",
+   "E": "15",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "4BzAQE",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "Hb6O3U",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "NRRfYP",
+   "D": "7",
+   "E": "77",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "CD9BLy",
+   "D": "2",
+   "E": "22",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "ztJYpI",
+   "D": "8",
+   "E": "97",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "Yzokxa",
+   "D": "8",
+   "E": "97",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "eIZS7k",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "GGaceU",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "YEIMmF",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "x8U1bY",
+   "D": "3",
+   "E": "26",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CU1fkx",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "peyS4P",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0oHOZv",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zGsXaD",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "FK6HtH",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ZSCpkz",
+   "D": "3",
+   "E": "26",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Mx9jQm",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0s57EN",
+   "D": "3",
+   "E": "37",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "JKdiyv",
+   "D": "3",
+   "E": "164",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "Oawv0J",
+   "D": "1",
+   "E": "20",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "JzAHi3",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "ygnsjS",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "MZicx4",
+   "D": "11",
+   "E": "128",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "LnzGvI",
+   "D": "3",
+   "E": "36",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "b601KW",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "tuyIzW",
+   "D": "3",
+   "E": "172",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "QFOApS",
+   "D": "4",
+   "E": "48",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "5LHS1h",
+   "D": "4",
+   "E": "48",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "zD2FYX",
+   "D": "4",
+   "E": "48",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "DsrVwL",
+   "D": "4",
+   "E": "47",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "FW35fB",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "4U8cc8",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "IDxKzR",
+   "D": "3",
+   "E": "43",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "5ntmM9",
+   "D": "11",
+   "E": "132",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "GnPJde",
+   "D": "11",
+   "E": "132",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "t787n5",
+   "D": "11",
+   "E": "132",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "YUaX19",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "C0Ax0o",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "9UUKMj",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "blZIJW",
+   "D": "3",
+   "E": "41",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "afK7hW",
+   "D": "3",
+   "E": "36",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "2VR5QQ",
+   "D": "3",
+   "E": "40",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "YSLzio",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "fqgLPD",
+   "D": "3",
+   "E": "26",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "JOxnlJ",
+   "D": "3",
+   "E": "25",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "kVKPX7",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "7HHwqy",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "si7pxG",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "DiM4QZ",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "Yuzbjs",
+   "D": "11",
+   "E": "112",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "mrLL4r",
+   "D": "11",
+   "E": "124",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "EiBcm8",
+   "D": "11",
+   "E": "121",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "V9x9qv",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "MFgb7Y",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "LIY58Q",
+   "D": "4",
+   "E": "52",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "jNqqVQ",
+   "D": "11",
+   "E": "109",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "J0OjIy",
+   "D": "12",
+   "E": "149",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "KcLuc7",
+   "D": "4",
+   "E": "46",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "gm9FbA",
+   "D": "3",
+   "E": "31",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "NaTBQp",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "FfmdpM",
+   "D": "3",
+   "E": "164",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "e4in1c",
+   "D": "11",
+   "E": "139",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "xw3Nti",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dNnIWw",
+   "D": "3",
+   "E": "43",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "Lo0Ybu",
+   "D": "4",
+   "E": "56",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "JVv3qI",
+   "D": "4",
+   "E": "48",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "P9Ly3t",
+   "D": "11",
+   "E": "109",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "OIKxkJ",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "SDUD8m",
+   "D": "8",
+   "E": "100",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "XRsG9K",
+   "D": "11",
+   "E": "138",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "FNByFy",
+   "D": "2",
+   "E": "23",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "vuZYco",
+   "D": "4",
+   "E": "45",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "wkaQ3k",
+   "D": "4",
+   "E": "45",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "7x2tzn",
+   "D": "11",
+   "E": "119",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dWISHQ",
+   "D": "8",
+   "E": "93",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "iLlMCb",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "DwGaaX",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "QuJNYq",
+   "D": "3",
+   "E": "31",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "jZMQtq",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "lj8S4n",
+   "D": "5",
+   "E": "62",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "QNucGY",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "41SRDq",
+   "D": "11",
+   "E": "133",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Oklbuw",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "3Csw32",
+   "D": "3",
+   "E": "36",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "vrGuPg",
+   "D": "8",
+   "E": "97",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "2NsDUk",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "36DmYw",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "a29mU4",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "2mfXU8",
+   "D": "11",
+   "E": "138",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "jshi8D",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "XDaNfi",
+   "D": "3",
+   "E": "25",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "DqTrrP",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "J183HL",
+   "D": "1",
+   "E": "10",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "DmCMSF",
+   "D": "3",
+   "E": "158",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "epip51",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "42fXwv",
+   "D": "8",
+   "E": "102",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "EcAeVx",
+   "D": "7",
+   "E": "82",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "sfHgoE",
+   "D": "8",
+   "E": "102",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KGaPva",
+   "D": "7",
+   "E": "82",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "twBPib",
+   "D": "7",
+   "E": "82",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "YUVOGh",
+   "D": "8",
+   "E": "102",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "lr1zya",
+   "D": "1",
+   "E": "13",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "jChDlj",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Uz0Uxf",
+   "D": "1",
+   "E": "5",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kGli9E",
+   "D": "7",
+   "E": "88",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KmsdoV",
+   "D": "1",
+   "E": "15",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "9bNjNs",
+   "D": "1",
+   "E": "15",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "lFMs56",
+   "D": "3",
+   "E": "34",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "3L21AU",
+   "D": "3",
+   "E": "31",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "ZQKG7N",
+   "D": "3",
+   "E": "37",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "r4I50V",
+   "D": "11",
+   "E": "113",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "qQPhVI",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "qX8i3E",
+   "D": "11",
+   "E": "125",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "cCXIXP",
+   "D": "7",
+   "E": "82",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "UZD25d",
+   "D": "1",
+   "E": "165",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "cByN2F",
+   "D": "1",
+   "E": "165",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dM2XzJ",
+   "D": "5",
+   "E": "58",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "uXdZle",
+   "D": "3",
+   "E": "37",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Dwhny1",
+   "D": "5",
+   "E": "60",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "7i1hXo",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ONdtij",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Lx7DEm",
+   "D": "5",
+   "E": "59",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HO9ROw",
+   "D": "5",
+   "E": "65",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "qGQc7S",
+   "D": "5",
+   "E": "63",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "3zb9Gq",
+   "D": "5",
+   "E": "58",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "cB7Dxt",
+   "D": "11",
+   "E": "132",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4KIe0t",
+   "D": "3",
+   "E": "36",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AlRuKw",
+   "D": "5",
+   "E": "59",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "T7K4um",
+   "D": "5",
+   "E": "60",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "UuyWmA",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "8Ug3hm",
+   "D": "1",
+   "E": "12",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "pYkVxn",
+   "D": "11",
+   "E": "108",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "fQSwqJ",
+   "D": "3",
+   "E": "25",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "rbRRxm",
+   "D": "3",
+   "E": "25",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "cdkpyx",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CZn6nT",
+   "D": "3",
+   "E": "25",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "bnURKM",
+   "D": "3",
+   "E": "25",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Tqu2Of",
+   "D": "7",
+   "E": "88",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "gpCMad",
+   "D": "11",
+   "E": "119",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "yjsHPX",
+   "D": "3",
+   "E": "172",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Ln4Gn6",
+   "D": "3",
+   "E": "164",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "QkHinm",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "Y9X4cN",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AJwGIV",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dRGLDH",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "etD9Ry",
+   "D": "3",
+   "E": "40",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "Esu28L",
+   "D": "2",
+   "E": "22",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "S9QxGf",
+   "D": "5",
+   "E": "62",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "9XJBp9",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "Rg6aeS",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "9Qr0BU",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Xzoo8o",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "lFrwWQ",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "NZakfr",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "TPdvZt",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "eI5fN2",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "AXkM1P",
+   "D": "3",
+   "E": "172",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "tGCD2j",
+   "D": "1",
+   "E": "14",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Bl8SsD",
+   "D": "3",
+   "E": "44",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "3PXm6h",
+   "D": "1",
+   "E": "18",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "OXcz6Z",
+   "D": "3",
+   "E": "30",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "sicuOa",
+   "D": "3",
+   "E": "41",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "qVUNwf",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "pDZET2",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "LOVCKl",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "B0vbr1",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "YrOqvr",
+   "D": "2",
+   "E": "23",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "ZliVSZ",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "EkVPnE",
+   "D": "11",
+   "E": "109",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "l4L4RO",
+   "D": "1",
+   "E": "20",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "Cwuozg",
+   "D": "1",
+   "E": "18",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "TOBHd9",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "NJL9oB",
+   "D": "7",
+   "E": "78",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "kzcLek",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "QD9dX7",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "he3yMK",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "OhhDEr",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zdjQs9",
+   "D": "1",
+   "E": "1",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "WCKkkd",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "00CxqR",
+   "D": "3",
+   "E": "37",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "2EkHBG",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "BEFupD",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "n6p2aw",
+   "D": "11",
+   "E": "139",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "4QiGHK",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "N9aJxO",
+   "D": "3",
+   "E": "31",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Jio9R0",
+   "D": "1",
+   "E": "21",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "1HeKZM",
+   "D": "1",
+   "E": "21",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "qACg0q",
+   "D": "1",
+   "E": "21",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "s5V8YM",
+   "D": "7",
+   "E": "90",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "cJvlzs",
+   "D": "7",
+   "E": "81",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "oBponF",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "798rjW",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ADXvig",
+   "D": "8",
+   "E": "101",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "Pwu2fR",
+   "D": "8",
+   "E": "102",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Q5y7v5",
+   "D": "8",
+   "E": "102",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KnIZVN",
+   "D": "11",
+   "E": "119",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "eCmjOc",
+   "D": "3",
+   "E": "36",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "UmJ5Wm",
+   "D": "1",
+   "E": "18",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "QdCdco",
+   "D": "6",
+   "E": "73",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "7zuKpR",
+   "D": "5",
+   "E": "62",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "XHB8Tj",
+   "D": "3",
+   "E": "35",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "1yMrDb",
+   "D": "7",
+   "E": "75",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "aPMdQj",
+   "D": "3",
+   "E": "31",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "NAfiYn",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "0j4t2Z",
+   "D": "3",
+   "E": "25",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "52gmSJ",
+   "D": "3",
+   "E": "164",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "7aZN1V",
+   "D": "4",
+   "E": "47",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "L6Lk8r",
+   "D": "3",
+   "E": "40",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "AY6Jg8",
+   "D": "3",
+   "E": "30",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "hbf2am",
+   "D": "8",
+   "E": "101",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "T9hizi",
+   "D": "1",
+   "E": "3",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "cglNbC",
+   "D": "5",
+   "E": "71",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0K21pW",
+   "D": "1",
+   "E": "18",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "aBYXhp",
+   "D": "1",
+   "E": "19",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "bFMDB3",
+   "D": "3",
+   "E": "34",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "bZ8hmu",
+   "D": "7",
+   "E": "84",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "UBcopK",
+   "D": "8",
+   "E": "98",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "RDSydO",
+   "D": "3",
+   "E": "43",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "AWdfjO",
+   "D": "5",
+   "E": "65",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "y5dpHI",
+   "D": "5",
+   "E": "61",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "NQwb75",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "LDo4fA",
+   "D": "12",
+   "E": "143",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "FMWVLR",
+   "D": "1",
+   "E": "18",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "EbwOyu",
+   "D": "3",
+   "E": "38",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "UimBmb",
+   "D": "11",
+   "E": "121",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "EyM4tM",
+   "D": "3",
+   "E": "42",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "otVuwu",
+   "D": "3",
+   "E": "29",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "I1L4J0",
+   "D": "3",
+   "E": "32",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "OAko81",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "otkATx",
+   "D": "3",
+   "E": "44",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "s1eqWg",
+   "D": "9",
+   "E": "104",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "WUHF66",
+   "D": "11",
+   "E": "119",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "NCsyAW",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "bM2eLl",
+   "D": "3",
+   "E": "32",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "p0Qbef",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "GIO3Xe",
+   "D": "3",
+   "E": "32",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "7aeVlx",
+   "D": "11",
+   "E": "127",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "UPDwhn",
+   "D": "11",
+   "E": "117",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "zAC6PV",
+   "D": "8",
+   "E": "98",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "Lt3xMf",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "YVWopx",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "xZCUbm",
+   "D": "3",
+   "E": "32",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "bztkAM",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zDUkcd",
+   "D": "11",
+   "E": "119",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "r1uQvZ",
+   "D": "4",
+   "E": "48",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "DNAmvo",
+   "D": "11",
+   "E": "117",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "CWwxeR",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "eEWCFd",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "SItgWZ",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "R5Y92z",
+   "D": "5",
+   "E": "70",
+   "F": "uM2jeT",
+   "G": "bY0joH"
+ },
+ {
+   "C": "c0okIY",
+   "D": "3",
+   "E": "31",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "baONtD",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "56hSxC",
+   "D": "3",
+   "E": "31",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "CEVOre",
+   "D": "7",
+   "E": "89",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "n8itvA",
+   "D": "3",
+   "E": "33",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "whHlqc",
+   "D": "3",
+   "E": "28",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "xLOOss",
+   "D": "7",
+   "E": "75",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "u0mJPG",
+   "D": "1",
+   "E": "18",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "E5i29p",
+   "D": "7",
+   "E": "92",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "dS0wsG",
+   "D": "3",
+   "E": "25",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "iNpc02",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "fIWpZI",
+   "D": "11",
+   "E": "132",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "EWG6gq",
+   "D": "7",
+   "E": "81",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "mjPDnq",
+   "D": "8",
+   "E": "93",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "fnqCGB",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "RVXI4q",
+   "D": "4",
+   "E": "45",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "tupCCv",
+   "D": "1",
+   "E": "18",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "2z4qK8",
+   "D": "3",
+   "E": "25",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "TMp47T",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "RiwjnU",
+   "D": "3",
+   "E": "26",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "1j4prL",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "xrpjYO",
+   "D": "3",
+   "E": "37",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "qxNOIk",
+   "D": "1",
+   "E": "20",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "JUjEnp",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "ISlZaz",
+   "D": "8",
+   "E": "97",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "Y8Ar6h",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "voS2xG",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "KJIjyd",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "yagN3u",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "dsVALR",
+   "D": "11",
+   "E": "170",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ZYOCUN",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "Bs70do",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "GWVXY3",
+   "D": "11",
+   "E": "123",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "qQw3dE",
+   "D": "5",
+   "E": "72",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "JSTPos",
+   "D": "5",
+   "E": "72",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "2FgZ04",
+   "D": "3",
+   "E": "37",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "pPGV1H",
+   "D": "8",
+   "E": "97",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "YWt2Ld",
+   "D": "3",
+   "E": "25",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "vpoGSw",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "69Yqbc",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "aWUHyv",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "OPM4t8",
+   "D": "5",
+   "E": "61",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "O9XhOw",
+   "D": "2",
+   "E": "22",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "0UTcHS",
+   "D": "5",
+   "E": "59",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "XlDXNh",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "6iwkrE",
+   "D": "2",
+   "E": "23",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "WBe09U",
+   "D": "3",
+   "E": "33",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "yBrlNu",
+   "D": "3",
+   "E": "30",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "tuzag8",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "zkfPGW",
+   "D": "11",
+   "E": "132",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "M77aJE",
+   "D": "11",
+   "E": "132",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "akZCc6",
+   "D": "11",
+   "E": "132",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "TLdF50",
+   "D": "11",
+   "E": "117",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "WFjpOp",
+   "D": "3",
+   "E": "43",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "7faCP2",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "EzaTJ3",
+   "D": "6",
+   "E": "73",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "SjPBgM",
+   "D": "8",
+   "E": "93",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "HaN457",
+   "D": "3",
+   "E": "32",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "qOKA1F",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "f16hLl",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "lMlLXZ",
+   "D": "11",
+   "E": "117",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "5fM3ER",
+   "D": "1",
+   "E": "11",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "7bnlRC",
+   "D": "3",
+   "E": "158",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "zTJ86p",
+   "D": "11",
+   "E": "112",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Y6VFJW",
+   "D": "3",
+   "E": "30",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "HyTdTM",
+   "D": "11",
+   "E": "117",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "VdK5qM",
+   "D": "11",
+   "E": "126",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lDDTXD",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "WbvFmE",
+   "D": "3",
+   "E": "37",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "a5LtHp",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "mcvkTZ",
+   "D": "3",
+   "E": "32",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "4neIJi",
+   "D": "5",
+   "E": "72",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "yh28GV",
+   "D": "11",
+   "E": "125",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "htJQLM",
+   "D": "5",
+   "E": "72",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "CLsadV",
+   "D": "5",
+   "E": "72",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "mjwrcO",
+   "D": "3",
+   "E": "42",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "37s6fV",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "Api83U",
+   "D": "8",
+   "E": "98",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "WFT0UY",
+   "D": "3",
+   "E": "35",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "IzBcZt",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Z4LnaP",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "gvFuE2",
+   "D": "8",
+   "E": "94",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "VgbSMs",
+   "D": "2",
+   "E": "22",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "8vbUYR",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "uAYQwf",
+   "D": "11",
+   "E": "119",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "gVuwQ6",
+   "D": "2",
+   "E": "22",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "1qx64W",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "N87g0e",
+   "D": "1",
+   "E": "17",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "FtZRre",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lPcmND",
+   "D": "3",
+   "E": "32",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "LB8JzL",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "z71HIM",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "AAdvVo",
+   "D": "8",
+   "E": "97",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "Xmetdp",
+   "D": "3",
+   "E": "26",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kQiE9q",
+   "D": "3",
+   "E": "30",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "qXs21b",
+   "D": "11",
+   "E": "125",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Pni8Jo",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "4NgQyT",
+   "D": "12",
+   "E": "150",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "Rj8PxJ",
+   "D": "11",
+   "E": "112",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "bn1wGG",
+   "D": "3",
+   "E": "26",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "3neLUw",
+   "D": "3",
+   "E": "32",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "xcGtHr",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "x8Bv0f",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "EO71ZO",
+   "D": "5",
+   "E": "72",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "jbvl8b",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "qpyuqH",
+   "D": "3",
+   "E": "27",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "XFwk42",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "sAQpBR",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KQDQgO",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "nOFAoT",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Z1g2ua",
+   "D": "3",
+   "E": "31",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ZRujA6",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "fOFhEa",
+   "D": "1",
+   "E": "18",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "bp7TkJ",
+   "D": "11",
+   "E": "170",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "IAP9Ye",
+   "D": "11",
+   "E": "109",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "BceaoL",
+   "D": "5",
+   "E": "61",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "Da2apu",
+   "D": "8",
+   "E": "100",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "ptlOzL",
+   "D": "8",
+   "E": "100",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "Oobtwc",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "qQTYZ8",
+   "D": "11",
+   "E": "121",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Wemgbs",
+   "D": "3",
+   "E": "41",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "CtqQJb",
+   "D": "3",
+   "E": "31",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "kSrchj",
+   "D": "3",
+   "E": "37",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "AVcFA8",
+   "D": "3",
+   "E": "158",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "AdHXWs",
+   "D": "8",
+   "E": "98",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "dbN8in",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "EpkUho",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "uL3sSR",
+   "D": "11",
+   "E": "121",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "8zibUO",
+   "D": "2",
+   "E": "22",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "htbWwF",
+   "D": "3",
+   "E": "32",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "meCiGU",
+   "D": "3",
+   "E": "33",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "INJWpy",
+   "D": "3",
+   "E": "42",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "oC1Ux4",
+   "D": "3",
+   "E": "43",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "xdvDOQ",
+   "D": "3",
+   "E": "31",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "wXVeJD",
+   "D": "3",
+   "E": "40",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "uzbisB",
+   "D": "11",
+   "E": "136",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "qpfWYm",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "gVynTw",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "3WxXFm",
+   "D": "3",
+   "E": "30",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "yEe3T6",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "mFO6aU",
+   "D": "3",
+   "E": "37",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "fDUiV9",
+   "D": "3",
+   "E": "40",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "ZyZ1g3",
+   "D": "3",
+   "E": "30",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "L2Nd1C",
+   "D": "3",
+   "E": "42",
+   "F": "DMU2Kf",
+   "G": "vd0Jcg"
+ },
+ {
+   "C": "babLje",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "LfwcEu",
+   "D": "5",
+   "E": "72",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "h9JXAb",
+   "D": "11",
+   "E": "113",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "iId6Sg",
+   "D": "3",
+   "E": "40",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "p6ZP0p",
+   "D": "8",
+   "E": "98",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "MmaQrA",
+   "D": "11",
+   "E": "115",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "AQE3Sx",
+   "D": "11",
+   "E": "112",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "3Zc0Ez",
+   "D": "3",
+   "E": "36",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "5ue4ah",
+   "D": "8",
+   "E": "93",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "2yXCVa",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "PB49EI",
+   "D": "11",
+   "E": "112",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "2Bxz64",
+   "D": "3",
+   "E": "32",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "G8qBXI",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "ATFslo",
+   "D": "5",
+   "E": "69",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "l5VbnF",
+   "D": "11",
+   "E": "167",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "8lmndo",
+   "D": "3",
+   "E": "34",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "6owRQn",
+   "D": "1",
+   "E": "18",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "ctjbwM",
+   "D": "11",
+   "E": "124",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "uzOl1k",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "FDSQ5n",
+   "D": "1",
+   "E": "19",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "0a0nmv",
+   "D": "1",
+   "E": "3",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "OGHzdU",
+   "D": "8",
+   "E": "98",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "XJ7ZBB",
+   "D": "11",
+   "E": "112",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "XeZfaD",
+   "D": "3",
+   "E": "30",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "FnRwC6",
+   "D": "7",
+   "E": "75",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "GbTnYM",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "HptKyQ",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "YmuNgG",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "5ErplG",
+   "D": "1",
+   "E": "8",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "FbD1pJ",
+   "D": "3",
+   "E": "30",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Rl3Yy9",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "44mN7a",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "x6bRxw",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "aSdzxF",
+   "D": "3",
+   "E": "44",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "KVcu4B",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "oRKnzw",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "6DAt6F",
+   "D": "3",
+   "E": "43",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "cXEnHS",
+   "D": "11",
+   "E": "112",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "Xv2EIK",
+   "D": "9",
+   "E": "105",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "vf8QTx",
+   "D": "11",
+   "E": "125",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "zFPtdT",
+   "D": "8",
+   "E": "93",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "pOk8tL",
+   "D": "3",
+   "E": "32",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "Kktdjp",
+   "D": "3",
+   "E": "31",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ej16Dh",
+   "D": "3",
+   "E": "25",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "vIhSst",
+   "D": "3",
+   "E": "43",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "cvma3B",
+   "D": "1",
+   "E": "16",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "GCDyUs",
+   "D": "5",
+   "E": "64",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ULNeg7",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "lsUdvK",
+   "D": "3",
+   "E": "37",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "f1MEZQ",
+   "D": "11",
+   "E": "132",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "P8KXUd",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dqKU6w",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "dlm9nV",
+   "D": "8",
+   "E": "93",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "G5Uxww",
+   "D": "3",
+   "E": "164",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1S3Le4",
+   "D": "3",
+   "E": "31",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Mvh5U2",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "OH98hq",
+   "D": "3",
+   "E": "43",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "8ftXVJ",
+   "D": "8",
+   "E": "93",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "e0bg5f",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "1EDyEY",
+   "D": "1",
+   "E": "16",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "FlmKOv",
+   "D": "1",
+   "E": "20",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "9BJRbZ",
+   "D": "2",
+   "E": "22",
+   "F": "HaPdSL",
+   "G": "9RsQkk"
+ },
+ {
+   "C": "K6s9S1",
+   "D": "11",
+   "E": "129",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "xh62VZ",
+   "D": "3",
+   "E": "31",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "FxxNhs",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "P2rD30",
+   "D": "3",
+   "E": "25",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "LPjakS",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Ieu3Wi",
+   "D": "1",
+   "E": "18",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "14UQ4N",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Bzl1Jw",
+   "D": "11",
+   "E": "125",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "fX6odn",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "NZ5gEX",
+   "D": "11",
+   "E": "136",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "2ZwqMd",
+   "D": "4",
+   "E": "47",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "zcGmvP",
+   "D": "3",
+   "E": "40",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "nbVcip",
+   "D": "3",
+   "E": "44",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "Tw2gsB",
+   "D": "3",
+   "E": "40",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "1SYQ5O",
+   "D": "7",
+   "E": "75",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "xXJuyA",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Uwcqsj",
+   "D": "1",
+   "E": "5",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "7SC2N0",
+   "D": "3",
+   "E": "164",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KfC3l9",
+   "D": "5",
+   "E": "71",
+   "F": "p3YrOa",
+   "G": "HFQ27P"
+ },
+ {
+   "C": "8TQNbT",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "zJigjF",
+   "D": "5",
+   "E": "57",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "i1jKN5",
+   "D": "5",
+   "E": "65",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "dODEDo",
+   "D": "3",
+   "E": "41",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "sYYgGI",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "0c3ltk",
+   "D": "5",
+   "E": "63",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "onllb0",
+   "D": "4",
+   "E": "48",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "oqsjeJ",
+   "D": "4",
+   "E": "47",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "h7N6T9",
+   "D": "10",
+   "E": "106",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "xg7BJX",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "D4I0lX",
+   "D": "5",
+   "E": "72",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "eBelPz",
+   "D": "3",
+   "E": "25",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "qvtSfO",
+   "D": "5",
+   "E": "65",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "rHCSHp",
+   "D": "3",
+   "E": "42",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ndBEW0",
+   "D": "11",
+   "E": "108",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "BKi6Ss",
+   "D": "3",
+   "E": "35",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "EqgmWc",
+   "D": "3",
+   "E": "33",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "ruYTf6",
+   "D": "11",
+   "E": "112",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CScss3",
+   "D": "7",
+   "E": "89",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "a8u4ic",
+   "D": "5",
+   "E": "61",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "nwNOxm",
+   "D": "8",
+   "E": "101",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "EBlZnE",
+   "D": "11",
+   "E": "112",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "TFcGop",
+   "D": "3",
+   "E": "25",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "9RNMJQ",
+   "D": "1",
+   "E": "13",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "xlOpbL",
+   "D": "3",
+   "E": "29",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "R1JD13",
+   "D": "7",
+   "E": "90",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "Qgkp3b",
+   "D": "11",
+   "E": "170",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "QJZFnY",
+   "D": "11",
+   "E": "136",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "eVgnFV",
+   "D": "1",
+   "E": "21",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ABoSrf",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "7GLf2A",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "JsJS48",
+   "D": "1",
+   "E": "3",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "0NyrGZ",
+   "D": "11",
+   "E": "170",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "hz4rNs",
+   "D": "3",
+   "E": "25",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Pb4Zwl",
+   "D": "3",
+   "E": "42",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "ZzpzSy",
+   "D": "5",
+   "E": "72",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "0tWTUV",
+   "D": "7",
+   "E": "83",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "zsoUNy",
+   "D": "1",
+   "E": "18",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "lrTDM4",
+   "D": "3",
+   "E": "36",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "JaS6T7",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "wC2GDZ",
+   "D": "8",
+   "E": "98",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kuAItj",
+   "D": "3",
+   "E": "25",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "i5EwQe",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lPKfmK",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "T64OoT",
+   "D": "5",
+   "E": "71",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "N0usi0",
+   "D": "5",
+   "E": "60",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "x3B5d8",
+   "D": "11",
+   "E": "134",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "TxVKov",
+   "D": "3",
+   "E": "34",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "JK8eXb",
+   "D": "3",
+   "E": "43",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "kKHKCn",
+   "D": "1",
+   "E": "15",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "ep9tZr",
+   "D": "4",
+   "E": "52",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "LPQCSx",
+   "D": "1",
+   "E": "16",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "K2y0MV",
+   "D": "1",
+   "E": "165",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "eJ0fVE",
+   "D": "5",
+   "E": "59",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "pO0ouy",
+   "D": "11",
+   "E": "129",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "eXzIZz",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "qPgNWv",
+   "D": "3",
+   "E": "43",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "cPLFNf",
+   "D": "3",
+   "E": "40",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "BUVVgt",
+   "D": "8",
+   "E": "98",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "KuflHE",
+   "D": "3",
+   "E": "30",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4eYvNS",
+   "D": "8",
+   "E": "102",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "isCgs7",
+   "D": "3",
+   "E": "37",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "bf76fr",
+   "D": "3",
+   "E": "25",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "QSwjKh",
+   "D": "1",
+   "E": "10",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "5dbIgo",
+   "D": "10",
+   "E": "106",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "65zNUD",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "TmGZKm",
+   "D": "8",
+   "E": "94",
+   "F": "hGFVYy",
+   "G": "S7YNd3"
+ },
+ {
+   "C": "Mp3DgY",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4LX2Qa",
+   "D": "8",
+   "E": "98",
+   "F": "yX6twV",
+   "G": "1eKpO5"
+ },
+ {
+   "C": "TvAG7D",
+   "D": "8",
+   "E": "101",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ExTe8O",
+   "D": "11",
+   "E": "112",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "lAM2hZ",
+   "D": "3",
+   "E": "37",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "fWbkCT",
+   "D": "3",
+   "E": "33",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Il48ZU",
+   "D": "3",
+   "E": "25",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "Bk34Go",
+   "D": "1",
+   "E": "18",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "tenqsI",
+   "D": "5",
+   "E": "65",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "8ve3vf",
+   "D": "3",
+   "E": "42",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "7IjJ76",
+   "D": "7",
+   "E": "80",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CJYncP",
+   "D": "7",
+   "E": "80",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "MdlspB",
+   "D": "7",
+   "E": "80",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "kZ5YoL",
+   "D": "3",
+   "E": "164",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "8rc5kA",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "a9reE2",
+   "D": "3",
+   "E": "31",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "vxQzSS",
+   "D": "3",
+   "E": "30",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "YH9nbt",
+   "D": "3",
+   "E": "164",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "R7UZkR",
+   "D": "11",
+   "E": "119",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "YcAgdR",
+   "D": "3",
+   "E": "30",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Fkz9Mi",
+   "D": "14",
+   "E": "161",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "6jvc3G",
+   "D": "4",
+   "E": "48",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "l7irOy",
+   "D": "4",
+   "E": "53",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "5hvNTC",
+   "D": "11",
+   "E": "132",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "60GVov",
+   "D": "1",
+   "E": "5",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "hCMeA4",
+   "D": "11",
+   "E": "117",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "iypGyz",
+   "D": "11",
+   "E": "112",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "Jjw7Pd",
+   "D": "11",
+   "E": "112",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "Me6YnI",
+   "D": "3",
+   "E": "35",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "pYXY7M",
+   "D": "3",
+   "E": "30",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "HL52ir",
+   "D": "3",
+   "E": "42",
+   "F": "p1tFbP",
+   "G": "Syl46S"
+ },
+ {
+   "C": "bpJ9u8",
+   "D": "5",
+   "E": "65",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "gQiQsk",
+   "D": "5",
+   "E": "62",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "rjJiAx",
+   "D": "3",
+   "E": "30",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "JR5uca",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "rRe2jl",
+   "D": "1",
+   "E": "20",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "QCvO04",
+   "D": "5",
+   "E": "72",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "vkoim1",
+   "D": "3",
+   "E": "30",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "655f2d",
+   "D": "1",
+   "E": "2",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "7Yytym",
+   "D": "3",
+   "E": "37",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "InYD5U",
+   "D": "5",
+   "E": "68",
+   "F": "BznahA",
+   "G": "ZApGug"
+ },
+ {
+   "C": "kzMoR5",
+   "D": "3",
+   "E": "36",
+   "F": "4F7QA9",
+   "G": "fKk5B1"
+ },
+ {
+   "C": "5pJqvf",
+   "D": "3",
+   "E": "43",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "9LnbQj",
+   "D": "3",
+   "E": "43",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "1B8Hrr",
+   "D": "1",
+   "E": "20",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "Edea9J",
+   "D": "1",
+   "E": "15",
+   "F": "DifSi4",
+   "G": "NbGMT2"
+ },
+ {
+   "C": "4CC8Gf",
+   "D": "3",
+   "E": "34",
+   "F": "941OaA",
+   "G": "UFie4f"
+ },
+ {
+   "C": "dmVTls",
+   "D": "5",
+   "E": "72",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "xMjKhw",
+   "D": "11",
+   "E": "124",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "TpeMIM",
+   "D": "11",
+   "E": "119",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "KiXHLV",
+   "D": "5",
+   "E": "65",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "5stK34",
+   "D": "3",
+   "E": "33",
+   "F": "TMc6H2",
+   "G": "MfINpl"
+ },
+ {
+   "C": "eI4NgQ",
+   "D": "4",
+   "E": "52",
+   "F": "IImUD9",
+   "G": "s0WsY3"
+ },
+ {
+   "C": "SZbmSL",
+   "D": "11",
+   "E": "136",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ },
+ {
+   "C": "x21pxt",
+   "D": "11",
+   "E": "124",
+   "F": "q6vJUK",
+   "G": "jnSdDd"
+ },
+ {
+   "C": "uIgENV",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "WcP2Ww",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "HyxQE4",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "80tC1T",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "8b9X23",
+   "D": "NA",
+   "E": "NA",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "MUXP6K",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "C94dnF",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "6Q7pkn",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "txhujB",
+   "D": "NA",
+   "E": "NA",
+   "F": "AqEUBQ",
+   "G": "awYZlE"
+ },
+ {
+   "C": "ghPF7u",
+   "D": "NA",
+   "E": "NA",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "xoUVy2",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "4QXro7",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "CI8j2t",
+   "D": "NA",
+   "E": "NA",
+   "F": "nHLlnK",
+   "G": "IaQrxj"
+ },
+ {
+   "C": "vKqrQm",
+   "D": "NA",
+   "E": "NA",
+   "F": "VEY3Xa",
+   "G": "dMbTUT"
+ },
+ {
+   "C": "9GBACV",
+   "D": "NA",
+   "E": "NA",
+   "F": "nLsoQ9",
+   "G": "C0zPjd"
+ }
+]
+}

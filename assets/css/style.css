@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/bg.png");
+    background-repeat: repeat;
+}
+
+#css_logo {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 75px;
+}
+
+#beericon {
+    cursor: pointer;
+    color: gray;
+}
+
+#beericon:hover {
+    color: white !important;
+}
+
+/* ! container color */
+
+.css_contcolor {
+    background-color: rgb(244, 191, 79);
+}
+
+.css_optcol {
+    color: rgb(52, 57, 64);
+}
+
+.css_optcol:hover {
+    color: ghostwhite !important;
+}
