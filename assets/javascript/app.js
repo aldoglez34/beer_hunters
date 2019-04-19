@@ -6,15 +6,6 @@ window.onload = function () {
 
 };
 
-// * when an icon is clicked
-$(".action").click(function () {
-
-    // hide and show containers accordingly
-    $("#searchcontainer").hide();
-    $("#resultscontainer").show(500);
-
-});
-
 // * beer icon thingy on the top left corner that works as a home button
 $("#beericon").click(function () {
 
@@ -43,7 +34,7 @@ $("#another").on("click", function (event) {
 
 });
 
-// * randopm location option clicked
+// * random beer option clicked
 $("#random").on("click", function (event) {
 
     // preventing default behavior
@@ -117,7 +108,7 @@ $("#random").on("click", function (event) {
 
         // update the html - available
         if (beer.hasOwnProperty("available")) {
-            $("#r_availability").text(beer.available.name);
+            $("#r_availability").text(beer.available.name + " / " + beer.available.description);
         }
         else {
             $("#r_availability").text("");

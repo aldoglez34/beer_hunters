@@ -67,7 +67,7 @@
         <div class="container" style="margin-top: 80px;">
             <div class="row">
                 <!-- ? another location -->
-                <div class="col-sm mt-4 css_optcol action" id="another">
+                <div class="col-sm mt-4 css_optcol" id="another">
                     <div class="text-center">
                         <i class="fas fa-map-marked mb-4" style="font-size: 120px;"></i>
                     </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <!-- ? current location -->
-                <div class="col-sm mt-4 css_optcol action" id="current">
+                <div class="col-sm mt-4 css_optcol" id="current">
                     <div class="text-center">
                         <i class="fas fa-map-marker mb-4" style="font-size: 120px;"></i>
                     </div>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <!-- ? random location -->
-                <div class="col-sm mt-4 mt-2 css_optcol action" id="random">
+                <div class="col-sm mt-4 mt-2 css_optcol" id="random">
                     <div class="text-center">
                         <i class="fas fa-question mb-4" style="font-size: 120px;"></i>
                     </div>
@@ -105,10 +105,10 @@
     </div>
 
     <!-- ! RANDOM CONTAINER-->
-    <div class="container shadow-lg p-3 mb-3 rounded-bottom css_contcolor" id="randomcontainer">
+    <div class="container shadow-lg p-3 rounded-bottom css_contcolor text-dark" id="randomcontainer">
 
         <!-- ? beer name -->
-        <h1 class="text-center mt-3"><b id="r_beername">Beer Name</b></h1>
+        <h1 class="text-center"><b id="r_beername">Beer Name</b></h1>
 
         <!-- ? beer photo -->
         <div class="text-center mt-4">
@@ -140,8 +140,12 @@
             <dt class="col-sm-3">Availability</dt>
             <dd class="col-sm-9" id="r_availability">Availability</dd>
 
-
         </dl>
+
+        <!-- ? next beer link -->
+        <div class="text-right">
+            <a class="text-muted" href="#"><u>Next Beer</u></a>
+        </div>
 
     </div>
 
