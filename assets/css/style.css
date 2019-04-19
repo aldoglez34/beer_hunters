@@ -1,12 +1,26 @@
+/* ! body background */
+
 body {
     background-image: url("../images/bg.png");
     background-repeat: repeat;
 }
 
+/* ! title background */
+
+#titlediv {
+    background-image: url("../images/titlebg.png");
+    background-repeat: repeat;
+}
+
+/* ! logo title */
+
 #css_logo {
     font-family: 'Fascinate Inline', cursive;
     font-size: 75px;
+    text-shadow: 2px 2px 5px gray;
 }
+
+/* ! beer icon on the top left corner (home button) */
 
 #beericon {
     cursor: pointer;
@@ -17,11 +31,13 @@ body {
     color: white !important;
 }
 
-/* ! container color */
+/* ! global container color */
 
 .css_contcolor {
     background-color: rgb(244, 191, 79);
 }
+
+/* ! option icons */
 
 .css_optcol {
     color: rgb(52, 57, 64);
