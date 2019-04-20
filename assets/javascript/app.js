@@ -4,6 +4,9 @@ window.onload = function () {
     // hide the results container
     $("#randomcontainer").hide();
 
+    // app version
+    console.log("app v1");
+
 };
 
 // * beer icon thingy on the top left corner that works as a home button
@@ -114,38 +117,28 @@ $("#random").on("click", function (event) {
             $("#r_availability").text("");
         }
 
-        // console.log("Beer name: " + response.data[randomIndex].name);
-        // console.log("Category: " + response.data[randomIndex].style.category.name);
-        // console.log("Style: " + response.data[randomIndex].style.name);
-        // // var selectedBeer = $("<p>").text("Randomly selected beer: " + response.data[randomIndex].name);
-        // // $("#results3").append(selectedBeer);
-        // // if (response.data[randomIndex].hasOwnProperty("labels")) {
-        // //     $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
-        // // }
-        // // else {
-        // //     $("#results3").append("<p>No label to display</p>");
-        // // }
-        // $.getJSON("master.json", function (master) {
-        //     console.log(master.data.length);
-        //     for (i = 1; i < master.data.length; i++) {
-        //         if (beer.id === master.data[i].C) {
-        //             var locationID = master.data[i].G;
-        //             console.log(locationID);
-        //         }
-        //     }
-        //     $.getJSON("Locations.json", function (response) {
-        //         console.log(response.data.length);
-        //         for (i = 0; i < response.data.length; i++) {
-        //             if (locationID === response.data[i].id) {
-        //                 console.log(response.data[i].locality);
-        //                 console.log(response.data[i].region);
-        //                 $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
-        //             }
-        //         }
-        //     })
-        // })
+        // ajax call
+        $.getJSON("master.json", function (master) {
+            console.log(master.data.length);
+            for (i = 1; i < master.data.length; i++) {
+                if (beer.id === master.data[i].C) {
+                    var locationID = master.data[i].G;
+                    console.log(locationID);
+                }
+            }
+            $.getJSON("Locations.json", function (response) {
+                console.log(response.data.length);
+                for (i = 0; i < response.data.length; i++) {
+                    if (locationID === response.data[i].id) {
+                        console.log(response.data[i].locality);
+                        console.log(response.data[i].region);
+                        $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
+                    }
+                }
+            })
+        })
 
-        // randomIndex = 0;
+        randomIndex = 0;
         allLocations = [];
 
     })
