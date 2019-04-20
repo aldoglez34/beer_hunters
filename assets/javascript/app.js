@@ -1,11 +1,14 @@
 // when window loads
 window.onload = function () {
 
-    // hide the results container
+    // hide the results
+    $("#selectcontainer").hide();
+    $("#currentcontainer").hide();
     $("#randomcontainer").hide();
+    $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v8");
+    console.log("app v9");
 
 };
 
@@ -15,8 +18,22 @@ $("#beericon").click(function () {
     // hide and show containers accordingly
     $("#titlediv").show();
     $("#searchcontainer").show();
+    $("#selectcontainer").hide();
+    $("#currentcontainer").hide();
     $("#randomcontainer").hide();
+    $("#beerhuntcontainer").hide();
+});
 
+// another location option clicked
+$("#select").on("click", function (event) {
+
+    // preventing default behavior
+    event.preventDefault();
+
+    // hide and show containers accordingly
+    $("#titlediv").hide();
+    $("#searchcontainer").hide();
+    $("#selectcontainer").show(500);
 });
 
 // current location option clicked
@@ -27,14 +44,10 @@ $("#current").on("click", function (event) {
 
     // ? begins procedure
 
-});
-
-// another location option clicked
-$("#another").on("click", function (event) {
-
-    // preventing default behavior
-    event.preventDefault();
-
+    // hide and show containers accordingly
+    $("#titlediv").hide();
+    $("#searchcontainer").hide();
+    $("#currentcontainer").show(500);
 });
 
 // random beer option event
@@ -151,12 +164,25 @@ $("#random").on("click", function (event) {
         })
 
         // clear the aray
-        allLocations = [];
+        allLocationIDs = [];
     })
 
     // hide and show containers accordingly
     $("#titlediv").hide();
     $("#searchcontainer").hide();
     $("#randomcontainer").show(500);
+});
 
+// current location option clicked
+$("#beerhunt").on("click", function (event) {
+
+    // preventing default behavior
+    event.preventDefault();
+
+    // ? begins procedure
+
+    // hide and show containers accordingly
+    $("#titlediv").hide();
+    $("#searchcontainer").hide();
+    $("#beerhuntcontainer").show(500);
 });
