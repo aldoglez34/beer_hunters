@@ -5,7 +5,7 @@ window.onload = function () {
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v6");
+    console.log("app v7");
 
 };
 
