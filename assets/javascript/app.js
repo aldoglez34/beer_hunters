@@ -5,7 +5,7 @@ window.onload = function () {
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v3");
+    console.log("app v4");
 
 };
 
@@ -117,7 +117,10 @@ $("#random").on("click", function (event) {
             $("#r_availability").text("-");
         }
 
-        // json call to the master file
+        // beer location
+        var locationID;
+
+        // json call to the master file to get the location id
         $.getJSON("./assets/json/master.json", function (master) {
 
             // iterate the data
@@ -127,14 +130,18 @@ $("#random").on("click", function (event) {
                 if (beer.id === master.data[i].C) {
 
                     // save the location id in a var
-                    var locationID = master.data[i].G;
+                    locationID = master.data[i].G;
                 }
             }
 
-            $.getJSON("Locations.json", function (response) {
+            $.getJSON("./assets/json/locations.json", function (response) {
+
                 console.log(response.data.length);
+
                 for (i = 0; i < response.data.length; i++) {
+
                     if (locationID === response.data[i].id) {
+
                         console.log(response.data[i].locality);
                         console.log(response.data[i].region);
                         $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
@@ -143,7 +150,7 @@ $("#random").on("click", function (event) {
             })
         })
 
-        randomIndex = 0;
+        // clear the aray
         allLocations = [];
 
     })
