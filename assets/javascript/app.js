@@ -1,15 +1,15 @@
-// * when window loads
+// when window loads
 window.onload = function () {
 
     // hide the results container
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v4");
+    console.log("app v5");
 
 };
 
-// * beer icon thingy on the top left corner that works as a home button
+// beer icon thingy on the top left corner that works as a home button
 $("#beericon").click(function () {
 
     // hide and show containers accordingly
@@ -19,7 +19,7 @@ $("#beericon").click(function () {
 
 });
 
-// * current location option clicked
+// current location option clicked
 $("#current").on("click", function (event) {
 
     // preventing default behavior
@@ -29,7 +29,7 @@ $("#current").on("click", function (event) {
 
 });
 
-// * another location option clicked
+// another location option clicked
 $("#another").on("click", function (event) {
 
     // preventing default behavior
@@ -37,7 +37,7 @@ $("#another").on("click", function (event) {
 
 });
 
-// * random beer option clicked
+// random beer option event
 $("#random").on("click", function (event) {
 
     // preventing default behavior
@@ -70,7 +70,7 @@ $("#random").on("click", function (event) {
             $("#r_beerphoto").attr("src", beer.labels.medium);
         }
         else {
-            $("#r_beerphoto").attr("src", "https://i.pinimg.com/236x/fc/7e/ce/fc7ece8e8ee1f5db97577a4622f33975--photo-icon-sad.jpg");
+            $("#r_beerphoto").attr("src", "../images/nobeerimg.png");
         }
 
         // update the html - description
@@ -131,20 +131,22 @@ $("#random").on("click", function (event) {
 
                     // save the location id in a var
                     locationID = master.data[i].G;
+
+                    console.log("locationID: " + locationID);
                 }
             }
 
+            // json call to the locations file
             $.getJSON("./assets/json/locations.json", function (response) {
 
-                console.log(response.data.length);
-
+                // iterate the data
                 for (i = 0; i < response.data.length; i++) {
 
+                    // find the beer location id 
                     if (locationID === response.data[i].id) {
 
-                        console.log(response.data[i].locality);
-                        console.log(response.data[i].region);
-                        $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
+                        // update the html
+                        $("#r_wheretobuy").text(response.data[i].locality + ", " + response.data[i].region);
                     }
                 }
             })
@@ -152,7 +154,6 @@ $("#random").on("click", function (event) {
 
         // clear the aray
         allLocations = [];
-
     })
 
     // hide and show containers accordingly
