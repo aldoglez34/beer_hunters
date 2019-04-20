@@ -5,7 +5,7 @@ window.onload = function () {
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v1");
+    console.log("app v2");
 
 };
 
@@ -118,27 +118,27 @@ $("#random").on("click", function (event) {
         }
 
         // ajax call
-        $.getJSON("master.json", function (master) {
-            console.log(master.data.length);
-            for (i = 1; i < master.data.length; i++) {
-                if (beer.id === master.data[i].C) {
-                    var locationID = master.data[i].G;
-                    console.log(locationID);
-                }
-            }
-            $.getJSON("Locations.json", function (response) {
-                console.log(response.data.length);
-                for (i = 0; i < response.data.length; i++) {
-                    if (locationID === response.data[i].id) {
-                        console.log(response.data[i].locality);
-                        console.log(response.data[i].region);
-                        $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
-                    }
-                }
-            })
-        })
+        // $.getJSON("master.json", function (master) {
+        //     console.log(master.data.length);
+        //     for (i = 1; i < master.data.length; i++) {
+        //         if (beer.id === master.data[i].C) {
+        //             var locationID = master.data[i].G;
+        //             console.log(locationID);
+        //         }
+        //     }
+        //     $.getJSON("Locations.json", function (response) {
+        //         console.log(response.data.length);
+        //         for (i = 0; i < response.data.length; i++) {
+        //             if (locationID === response.data[i].id) {
+        //                 console.log(response.data[i].locality);
+        //                 console.log(response.data[i].region);
+        //                 $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
+        //             }
+        //         }
+        //     })
+        // })
 
-        randomIndex = 0;
+        // randomIndex = 0;
         allLocations = [];
 
     })
