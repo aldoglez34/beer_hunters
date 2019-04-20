@@ -5,7 +5,7 @@ window.onload = function () {
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v2");
+    console.log("app v3");
 
 };
 
@@ -46,7 +46,7 @@ $("#random").on("click", function (event) {
     // all locations id will be stored in this array
     var allLocationIDs = [];
 
-    // json call to the file taht contains all data
+    // json call to the file that contains all data
     $.getJSON("./assets/json/alldata.json", function (response) {
 
         // iterate all the json and store the ids
@@ -78,7 +78,7 @@ $("#random").on("click", function (event) {
             $("#r_beerdescription").text(beer.description);
         }
         else {
-            $("#r_beerdescription").text("");
+            $("#r_beerdescription").text("-");
         }
 
         // update the html - style
@@ -88,9 +88,9 @@ $("#random").on("click", function (event) {
             $("#r_styledescription").text(beer.style.description);
         }
         else {
-            $("#r_stylecategoryname").text("");
-            $("#r_stylename").text("");
-            $("#r_styledescription").text("");
+            $("#r_stylecategoryname").text("-");
+            $("#r_stylename").text("-");
+            $("#r_styledescription").text("-");
         }
 
         // update the html - abv
@@ -98,7 +98,7 @@ $("#random").on("click", function (event) {
             $("#r_abv").text(beer.abv);
         }
         else {
-            $("#r_abv").text("");
+            $("#r_abv").text("-");
         }
 
         // update the html - ibu
@@ -106,7 +106,7 @@ $("#random").on("click", function (event) {
             $("#r_ibu").text(beer.ibu);
         }
         else {
-            $("#r_ibu").text("");
+            $("#r_ibu").text("-");
         }
 
         // update the html - available
@@ -114,31 +114,36 @@ $("#random").on("click", function (event) {
             $("#r_availability").text(beer.available.name + " / " + beer.available.description);
         }
         else {
-            $("#r_availability").text("");
+            $("#r_availability").text("-");
         }
 
-        // ajax call
-        // $.getJSON("master.json", function (master) {
-        //     console.log(master.data.length);
-        //     for (i = 1; i < master.data.length; i++) {
-        //         if (beer.id === master.data[i].C) {
-        //             var locationID = master.data[i].G;
-        //             console.log(locationID);
-        //         }
-        //     }
-        //     $.getJSON("Locations.json", function (response) {
-        //         console.log(response.data.length);
-        //         for (i = 0; i < response.data.length; i++) {
-        //             if (locationID === response.data[i].id) {
-        //                 console.log(response.data[i].locality);
-        //                 console.log(response.data[i].region);
-        //                 $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
-        //             }
-        //         }
-        //     })
-        // })
+        // json call to the master file
+        $.getJSON("./assets/json/master.json", function (master) {
 
-        // randomIndex = 0;
+            // iterate the data
+            for (i = 1; i < master.data.length; i++) {
+
+                // if the beer id is found
+                if (beer.id === master.data[i].C) {
+
+                    // save the location id in a var
+                    var locationID = master.data[i].G;
+                }
+            }
+
+            $.getJSON("Locations.json", function (response) {
+                console.log(response.data.length);
+                for (i = 0; i < response.data.length; i++) {
+                    if (locationID === response.data[i].id) {
+                        console.log(response.data[i].locality);
+                        console.log(response.data[i].region);
+                        $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
+                    }
+                }
+            })
+        })
+
+        randomIndex = 0;
         allLocations = [];
 
     })
