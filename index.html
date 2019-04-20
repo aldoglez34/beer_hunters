@@ -105,7 +105,11 @@
     <div class="container shadow-lg p-3 rounded-bottom css_contcolor text-dark" id="randomcontainer">
 
         <!-- ? beer name -->
-        <h1 class="text-center"><b id="r_beername"></b></h1>
+        <blockquote class="blockquote text-center">
+            <h1 class="text-center mb-0"><b id="r_beername"></b></h1>
+            <p class="mb-0" id="r_stylecategoryname"></p>
+            <footer class="blockquote-footer" id="r_styledescription"></footer>
+        </blockquote>
 
         <!-- ? beer photo -->
         <div class="text-center mt-4">
@@ -117,15 +121,9 @@
             <!-- description -->
             <dt class="col-sm-3">Beer Description</dt>
             <dd class="col-sm-9 text-justify" id="r_beerdescription"></dd>
-            <!-- style category name -->
-            <dt class="col-sm-3">Style Category Name</dt>
-            <dd class="col-sm-9 text-justify" id="r_stylecategoryname"></dd>
             <!-- style name -->
             <dt class="col-sm-3">Style Name</dt>
             <dd class="col-sm-9 text-justify" id="r_stylename"></dd>
-            <!-- style description -->
-            <dt class="col-sm-3">Style Description</dt>
-            <dd class="col-sm-9 text-justify" id="r_styledescription"></dd>
             <!-- abv -->
             <dt class="col-sm-3">Alcohol By Volume (ABV)</dt>
             <dd class="col-sm-9 text-justify" id="r_abv"></dd>
@@ -140,11 +138,6 @@
             <dd class="col-sm-9 text-justify" id="r_wheretobuy"></dd>
 
         </dl>
-
-        <!-- ? next beer link -->
-        <div class="text-right">
-            <a class="text-muted" style="font-size: 20px;" href="#"><u>Next Beer</u></a>
-        </div>
 
     </div>
 

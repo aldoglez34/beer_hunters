@@ -5,7 +5,7 @@ window.onload = function () {
     $("#randomcontainer").hide();
 
     // app version
-    console.log("app v5");
+    console.log("app v6");
 
 };
 
@@ -131,8 +131,6 @@ $("#random").on("click", function (event) {
 
                     // save the location id in a var
                     locationID = master.data[i].G;
-
-                    console.log("locationID: " + locationID);
                 }
             }
 
