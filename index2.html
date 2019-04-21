@@ -12,13 +12,13 @@
 </head>
 
 <style>
-
     /* !important !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ************************************* */
 
     #map {
-            height: 300px;
-            width: 450px;
-        }
+        height: 300px;
+        width: 450px;
+    }
+
     #results1 {
         margin: auto;
         max-width: 600px;
@@ -77,8 +77,10 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc&callback=initMap&libraries=places"
         async defer></script>
     <script>
+        
         // Current with IP
         var queryURLIP = "https://api.ipify.org?";
+        
         // console.log(queryURLIP);
         const apiKeyIP = "at_knMW8P4hXMF72fVn0z8jG2ZnwPsAy";
         $("#current").on("click", getcurrentIP);
@@ -104,6 +106,7 @@
                         })
                 })
         }
+        
         // Current with Google Maps
         var map;
         var service;
@@ -153,100 +156,96 @@
                 console.log("geolocation is not supported");
         });
 
-        
-        // Random
-        var allLocations = [];
-        $("#random").on("click", getRandom);
-        function getRandom() {
-            $("#results3").empty();
-            // $.getJSON("Locations.json", function (response) {
-            //     console.log(response.data[0].id);
-            // })
-            $.getJSON("alldata.json", function (response) {
-                console.log(response.data.length);
-                for (i = 0; i < response.data.length; i++) {
-                    allLocations.push(response.data[i].id);
+        $("#results3").empty();
+        // $.getJSON("Locations.json", function (response) {
+        //     console.log(response.data[0].id);
+        // })
+        $.getJSON("alldata.json", function (response) {
+            console.log(response.data.length);
+            for (i = 0; i < response.data.length; i++) {
+                allLocations.push(response.data[i].id);
+            }
+            console.log(allLocations.length);
+            var randomIndex = Math.floor(Math.random() * allLocations.length);
+            var randomID = allLocations[randomIndex];
+            console.log(randomID);
+            $("#results3").append("<p>Selected beer: " + response.data[randomIndex].name + "</p>");
+            if (response.data[randomIndex].hasOwnProperty("labels")) {
+                $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
+            }
+            else {
+                $("#results3").append("<p>No label to display</p>");
+            }
+            if (response.data[randomIndex].hasOwnProperty("description")) {
+                $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
+            }
+            else {
+                $("#results3").append("<p>Beer Description: Not available");
+            }
+            if (response.data[randomIndex].hasOwnProperty("style")) {
+                $("#results3").append("<p>Beer Category: " + response.data[randomIndex].style.category.name + "</p>");
+                $("#results3").append("<p>Beer Style: " + response.data[randomIndex].style.name + "</p>");
+                $("#results3").append("<p>Style description: " + response.data[randomIndex].style.description + "</p>");
+            }
+            else {
+                $("#results3").append("<p>Beer Category: Not available</p>");
+                $("#results3").append("<p>Beer Style: Not available</p>");
+                $("#results3").append("<p>Style description: Not available</p>");
+            }
+            // if (response.data[randomIndex].hasOwnProperty("description")) {
+            //     $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
+            // }
+            // else {
+            //     $("#results3").append("<p>Beer Description: Not available");
+            // }
+            if (response.data[randomIndex].hasOwnProperty("abv")) {
+                $("#results3").append("<p>Alcohol by volume: " + response.data[randomIndex].abv + "%</p>");
+            }
+            else {
+                $("#results3").append("<p>Alcohol by volume: Not available");
+            }
+            if (response.data[randomIndex].hasOwnProperty("available")) {
+                $("#results3").append("<p>Availability: " + response.data[randomIndex].available.name + "." + response.data[randomIndex].available.description + "</p>");
+            }
+            else {
+                $("#results3").append("<p>Availability: Not defined");
+            }
+            console.log("Beer name: " + response.data[randomIndex].name);
+            console.log("Category: " + response.data[randomIndex].style.category.name);
+            console.log("Style: " + response.data[randomIndex].style.name);
+            // var selectedBeer = $("<p>").text("Randomly selected beer: " + response.data[randomIndex].name);
+            // $("#results3").append(selectedBeer);
+            // if (response.data[randomIndex].hasOwnProperty("labels")) {
+            //     $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
+            // }
+            // else {
+            //     $("#results3").append("<p>No label to display</p>");
+            // }
+            $.getJSON("master.json", function (master) {
+                console.log(master.data.length);
+                for (i = 1; i < master.data.length; i++) {
+                    if (randomID === master.data[i].C) {
+                        var locationID = master.data[i].G;
+                        console.log(locationID);
+                    }
                 }
-                console.log(allLocations.length);
-                var randomIndex = Math.floor(Math.random() * allLocations.length);
-                var randomID = allLocations[randomIndex];
-                console.log(randomID);
-                $("#results3").append("<p>Selected beer: " + response.data[randomIndex].name + "</p>");
-                if (response.data[randomIndex].hasOwnProperty("labels")) {
-                    $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
-                }
-                else {
-                    $("#results3").append("<p>No label to display</p>");
-                }
-                if (response.data[randomIndex].hasOwnProperty("description")) {
-                    $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
-                }
-                else {
-                    $("#results3").append("<p>Beer Description: Not available");
-                }
-                if (response.data[randomIndex].hasOwnProperty("style")) {
-                    $("#results3").append("<p>Beer Category: " + response.data[randomIndex].style.category.name + "</p>");
-                    $("#results3").append("<p>Beer Style: " + response.data[randomIndex].style.name + "</p>");
-                    $("#results3").append("<p>Style description: " + response.data[randomIndex].style.description + "</p>");
-                }
-                else {
-                    $("#results3").append("<p>Beer Category: Not available</p>");
-                    $("#results3").append("<p>Beer Style: Not available</p>");
-                    $("#results3").append("<p>Style description: Not available</p>");
-                }
-                // if (response.data[randomIndex].hasOwnProperty("description")) {
-                //     $("#results3").append("<p>Beer Description: " + response.data[randomIndex].description + "</p>");
-                // }
-                // else {
-                //     $("#results3").append("<p>Beer Description: Not available");
-                // }
-                if (response.data[randomIndex].hasOwnProperty("abv")) {
-                    $("#results3").append("<p>Alcohol by volume: " + response.data[randomIndex].abv + "%</p>");
-                }
-                else {
-                    $("#results3").append("<p>Alcohol by volume: Not available");
-                }
-                if (response.data[randomIndex].hasOwnProperty("available")) {
-                    $("#results3").append("<p>Availability: " + response.data[randomIndex].available.name + "." + response.data[randomIndex].available.description + "</p>");
-                }
-                else {
-                    $("#results3").append("<p>Availability: Not defined");
-                }
-                console.log("Beer name: " + response.data[randomIndex].name);
-                console.log("Category: " + response.data[randomIndex].style.category.name);
-                console.log("Style: " + response.data[randomIndex].style.name);
-                // var selectedBeer = $("<p>").text("Randomly selected beer: " + response.data[randomIndex].name);
-                // $("#results3").append(selectedBeer);
-                // if (response.data[randomIndex].hasOwnProperty("labels")) {
-                //     $("#results3").append("<img src=" + response.data[randomIndex].labels.medium + ">");
-                // }
-                // else {
-                //     $("#results3").append("<p>No label to display</p>");
-                // }
-                $.getJSON("master.json", function (master) {
-                    console.log(master.data.length);
-                    for (i = 1; i < master.data.length; i++) {
-                        if (randomID === master.data[i].C) {
-                            var locationID = master.data[i].G;
-                            console.log(locationID);
+                $.getJSON("Locations.json", function (response) {
+                    console.log(response.data.length);
+                    for (i = 0; i < response.data.length; i++) {
+                        if (locationID === response.data[i].id) {
+                            console.log(response.data[i].locality);
+                            console.log(response.data[i].region);
+                            $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
                         }
                     }
-                    $.getJSON("Locations.json", function (response) {
-                        console.log(response.data.length);
-                        for (i = 0; i < response.data.length; i++) {
-                            if (locationID === response.data[i].id) {
-                                console.log(response.data[i].locality);
-                                console.log(response.data[i].region);
-                                $("#results3").append("<p>This beer you can find in: " + response.data[i].locality + ", " + response.data[i].region + "</p>");
-                            }
-                        }
-                    })
                 })
-                randomIndex = 0;
-                allLocations = [];
             })
+            randomIndex = 0;
+            allLocations = [];
+        })
         }
-        // Beer Hunt
+
+        // ! Beer Hunt
         $("#beerhunt").on("click", load_json_data('category'));
         function load_json_data(id, parent_id) {
             var html_code = '';
@@ -358,20 +357,7 @@
                 })
             })
         })
-        // Random
-        // const apikeyBDB = "/?key=9968a2f544553322a8a49f3fb2916c09";
-        // var baseURL = "https://sandbox-api.brewerydb.com/v2/";
-        // var randomBeer = "beer/random";
-        // var queryURLrandom = baseURL + randomBeer + apikeyBDB + "&withBreweries=Y";
-        // console.log(queryURLrandom);
-        // var locations = [];
-        // $.ajax({
-        //     url: queryURLrandom
-        // })
-        //     .done(function (response) {
-        //         console.log(response);
-        //         $("#results3").text("Beer Selected: " + response.data);
-        //     })
+        
     </script>
 
 
