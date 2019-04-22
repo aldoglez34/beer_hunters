@@ -109,6 +109,16 @@
     <!-- ! CURRENT LOCATION CONTAINER -->
     <div class="container shadow-lg p-3 rounded-bottom css_contcolor text-dark" id="currentcontainer">
 
+        <!-- ? header -->
+        <blockquote class="blockquote text-center">
+            <h1 class="text-center mb-0"><b id="cityregioncountry"></b></h1>
+            <p class="mb-0" id="latlong"></p>
+        </blockquote>
+
+        <!-- ? map -->
+        <div class="d-flex justify-content-center mt-4 mb-4">
+            <div id="map"></div>
+        </div>
     </div>
 
     <!-- ! RANDOM CONTAINER -->
@@ -157,13 +167,21 @@
     </div>
 
     <!-- ! LINKS -->
-    <!-- Popper.js, Boostrap and JS file -->
+    <!-- popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+    <!-- bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- google maps api -->
+    <!-- <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc&callback=initMap&libraries=places"
+        async defer></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc&libraries=places"
+        async defer></script>
+    <!-- javascript file -->
     <script src="./assets/javascript/app.js"></script>
 
 </body>

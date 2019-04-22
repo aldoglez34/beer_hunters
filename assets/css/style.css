@@ -74,3 +74,10 @@ body {
         font-size: 22px;
     }
 }
+
+/* ! map  */
+
+#map {
+    height: 300px;
+    width: 450px;
+}

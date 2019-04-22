@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v9");
+    console.log("app v10");
 
 };
 
@@ -42,7 +42,113 @@ $("#current").on("click", function (event) {
     // preventing default behavior
     event.preventDefault();
 
-    // ? begins procedure
+    // ? getting my current city based on my public ip
+
+    // get my public ip
+    var myPublicIpUrl = "https://api.ipify.org?";
+
+    // ajax call to get the public ip
+    $.ajax({ url: myPublicIpUrl, method: "GET" }).done(function (response) {
+
+        // get my public ip
+        var myPublicIp = response;
+        console.log("my public ip: " + myPublicIp);
+
+        // another ajax call to get the city, latitude and longitude based no the public ip
+        $.ajax({
+            url: "https://geo.ipify.org/api/v1",
+            dataType: "json",
+            data: { apiKey: "at_knMW8P4hXMF72fVn0z8jG2ZnwPsAy", ipAddress: myPublicIp }
+        })
+            .done(function (response) {
+
+                // storage the respone in the html
+                var mylocation = response.location;
+
+                // update the html
+                $("#cityregioncountry").text(mylocation.city + ", " + mylocation.region + ", " + mylocation.country);
+                $("#latlong").text("latitude: " + mylocation.lat + ", longitude: " + mylocation.lng);
+
+                // console stuff
+                console.log("country: " + response.location.country);
+                console.log("region: " + response.location.region);
+                console.log("city: " + response.location.city);
+                console.log("latitude : " + response.location.lat);
+                console.log("longitude : " + response.location.lng);
+                console.log("---------------------------------------------");
+
+                // run the google map
+                initMap(mylocation.lat, mylocation.lng);
+            })
+    })
+
+    // ? google maps functions
+
+    var map;
+    var service;
+    var infowindow;
+
+    // initializing map
+    function initMap(mylat, mylng) {
+
+        // var houston = new google.maps.LatLng(29.7604, -95.3698);
+        var mylocation = new google.maps.LatLng(mylat, mylng);
+        infowindow = new google.maps.InfoWindow();
+
+        map = new google.maps.Map(document.getElementById("map"), { center: mylocation, zoom: 10 });
+
+        var request = { query: "Spindletap Brewery", fields: ["name", "geometry"] };
+
+        service = new google.maps.places.PlacesService(map);
+
+        service.findPlaceFromQuery(request, function (results, status) {
+
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+                for (var i = 0; i < results.length; i++) {
+
+                    createMarker(results[i]);
+                }
+
+                map.setCenter(results[0].geometry.location);
+            }
+        });
+    }
+
+    // creating marker
+    function createMarker(place) {
+
+        var marker = new google.maps.Marker({
+
+            map: map,
+            position: place.geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function () {
+
+            infowindow.setContent(place.name);
+            infowindow.open(map, this);
+        });
+    }
+
+    if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function (position) {
+
+        console.log("google maps stuff: ");
+        console.log(position);
+
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        console.log("latitude: " + lat);
+        console.log("longitude: " + lng);
+
+        $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false&key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc", function (data) {
+            // console.log(data);
+            // console.log(data.results[6].formatted_address);
+        })
+    });
+    else {
+        console.log("geolocation is not supported");
+    }
 
     // hide and show containers accordingly
     $("#titlediv").hide();
@@ -174,12 +280,17 @@ $("#random").on("click", function (event) {
 });
 
 // current location option clicked
+
 $("#beerhunt").on("click", function (event) {
 
     // preventing default behavior
     event.preventDefault();
 
     // ? begins procedure
+
+
+
+    // ? ends procedure
 
     // hide and show containers accordingly
     $("#titlediv").hide();
