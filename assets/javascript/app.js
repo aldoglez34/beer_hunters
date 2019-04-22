@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v19");
+    console.log("app v20");
 
 };
 
@@ -95,7 +95,6 @@ $("#current").on("click", function (event) {
     // initializing map
     function initMap(mylat, mylng) {
 
-        // var houston = new google.maps.LatLng(29.7604, -95.3698);
         var mylocation = new google.maps.LatLng(mylat, mylng);
         infowindow = new google.maps.InfoWindow();
 
@@ -301,7 +300,7 @@ let showRandomBeer = function () {
     })
 };
 
-// ! beer hunt container stuff
+// ! advanced beer hunt container stuff
 $("#beerhunt").on("click", function (event) {
 
     // preventing default behavior
@@ -311,15 +310,15 @@ $("#beerhunt").on("click", function (event) {
 
     function load_json_data(id) {
 
-        var html_code = "";
+        // var html_code = "";
 
         console.log("id: " + id);
 
         // first json call
-        $.getJSON("./assets/json/beers.json", function (data) {
+        $.getJSON("./assets/json/beers2.json", function (data) {
 
-            html_code += "<option value=''>Select " + id + "</option>";
-            console.log("html code before each: " + html_code);
+            // html_code += "<option value=''>Select " + id + "</option>";
+            // console.log("html code before each: " + html_code);
 
             $.each(data, function (value) {
 
@@ -328,19 +327,16 @@ $("#beerhunt").on("click", function (event) {
                     if (value.parent_id == "0") {
 
                         html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+                        $("#category").append("<option value='" + value.id + "'>" + value.name + "</option>");
                     }
                 }
-                else {
+                // else if (value.parent_id == parent_id) {
 
-                    if (value.parent_id == parent_id) {
-
-                        html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
-                    }
-                }
+                //     html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+                // }
             });
 
-            console.log("html code after each: " + html_code);
-            $("#" + id).html(html_code);
+            // $("#" + id).html(html_code);
         });
     }
 
