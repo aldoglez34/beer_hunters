@@ -216,7 +216,7 @@ let showRandomBeer = function () {
             $("#r_beerphoto").attr("src", beer.labels.medium);
         }
         else {
-            $("#r_beerphoto").attr("src", "http://manabouttown.hamburg/wp-content/themes/blogo/images/no-img-portrait.png");
+            $("#r_beerphoto").attr("src", "https://bit.ly/2GzN4gH");
         }
 
         // update the html - description
