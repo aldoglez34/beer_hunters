@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v23");
+    console.log("app v24");
 
 };
 
@@ -320,32 +320,31 @@ $("#beerhunt").on("click", function (event) {
             // html_code += "<option value=''>Select " + id + "</option>";
             // console.log("html code before each: " + html_code);
 
-            var test1 = data[0];
-            console.log("test1: ");
-            console.log(test1);
+            var data = data.data;
 
-            var test2 = data.data[0];
-            console.log("test2: ");
-            console.log(test2);
+            console.log("data lenght: " + data.length);
+            console.log("data.data lenght: " + data.data.length);
 
+            console.log("some test: " + data[0]);
+            console.log("some other test: " + data.data[0]);
 
-            $.each(data, function (value) {
+            // $.each(data, function (value) {
 
-                if (id === "category") {
+            //     if (id === "category") {
 
-                    console.log("now evaluating: " + value.parent_id);
+            //         console.log("now evaluating: " + value.parent_id);
 
-                    if (value.parent_id === "0") {
+            //         if (value.parent_id === "0") {
 
-                        // html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
-                        $("#category").append("<option value='" + value.id + "'>" + value.name + "</option>");
-                    }
-                }
-                // else if (value.parent_id == parent_id) {
+            //             // html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+            //             $("#category").append("<option value='" + value.id + "'>" + value.name + "</option>");
+            //         }
+            //     }
+            //     // else if (value.parent_id == parent_id) {
 
-                //     html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
-                // }
-            });
+            //     //     html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+            //     // }
+            // });
 
             // $("#" + id).html(html_code);
         });
