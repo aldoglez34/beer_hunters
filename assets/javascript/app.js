@@ -1,4 +1,4 @@
-// when window loads
+// ! when window loads
 window.onload = function () {
 
     // hide the results
@@ -8,11 +8,12 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v15");
+    console.log("app v16");
 
 };
 
-// beer icon thingy on the top left corner that works as a home button
+// ! beer icon thingy
+// works as a home button
 $("#beericon").click(function () {
 
     // hide and show containers accordingly
@@ -25,7 +26,8 @@ $("#beericon").click(function () {
 
 });
 
-// ! another location option clicked
+// ! another location clicked
+// another location option clicked
 $("#select").on("click", function (event) {
 
     // preventing default behavior
@@ -37,6 +39,7 @@ $("#select").on("click", function (event) {
     $("#selectcontainer").show(500);
 });
 
+// ! my current location clicked
 // current location option clicked
 $("#current").on("click", function (event) {
 
@@ -157,11 +160,34 @@ $("#current").on("click", function (event) {
     $("#currentcontainer").show(500);
 });
 
-// random beer option event
+// ! random container stuff
+// random beer option event clicked
 $("#random").on("click", function (event) {
 
     // preventing default behavior
     event.preventDefault();
+
+    // show a new beer
+    showRandomBeer();
+
+    // hide and show containers accordingly
+    $("#titlediv").hide();
+    $("#searchcontainer").hide();
+    $("#randomcontainer").show(500);
+});
+
+// showing a new random beer
+$("#nextbeer").on("click", function (event) {
+
+    // preventing default behavior
+    event.preventDefault();
+
+    // show a new beer
+    showRandomBeer();
+});
+
+// random beer function
+let showRandomBeer = function () {
 
     // all locations id will be stored in this array
     var allLocationIDs = [];
@@ -273,14 +299,9 @@ $("#random").on("click", function (event) {
         // clear the aray
         allLocationIDs = [];
     })
+};
 
-    // hide and show containers accordingly
-    $("#titlediv").hide();
-    $("#searchcontainer").hide();
-    $("#randomcontainer").show(500);
-});
-
-// ! beer hunt option
+// ! beer hunt container stuff
 $("#beerhunt").on("click", function (event) {
 
     // preventing default behavior
