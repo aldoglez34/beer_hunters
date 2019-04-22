@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v32");
+    console.log("app v33");
 
 };
 
@@ -315,11 +315,11 @@ $("#beerhunt").on("click", function (event) {
 
             // getting the array in a var
             var data = array.data;
-            var length = data.length - 1;
 
             // populating the first category dropdown
-            for (var i = 0; i <= length; i++) {
-                if (data[i].id == "0") {
+            for (var i = 0; i <= data.length - 1; i++) {
+
+                if (data[i].parent_id == "0") {
                     $("#category").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
                 }
             }
