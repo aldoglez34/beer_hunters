@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v30");
+    console.log("app v31");
 
 };
 
@@ -316,34 +316,12 @@ $("#beerhunt").on("click", function (event) {
             // getting the array in a var
             var data = array.data;
 
-            console.log("array length: " + data.length);
-            console.log("first obj from the array: ");
-            console.log(data[0]);
-
             // populating the first category dropdown
-            for (var i = 0; i <= data.length; i++) {
-                $("#category").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+            for (var i = 0; i <= data.length - 1; i++) {
+                if (data[i].id === "0") {
+                    $("#category").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                }
             }
-
-            // $.each(data, function (value) {
-
-            //     if (id === "category") {
-
-            //         console.log("now evaluating: " + value.parent_id);
-
-            //         if (value.parent_id === "0") {
-
-            //             // html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
-            //             $("#category").append("<option value='" + value.id + "'>" + value.name + "</option>");
-            //         }
-            //     }
-            //     // else if (value.parent_id == parent_id) {
-
-            //     //     html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
-            //     // }
-            // });
-
-            // $("#" + id).html(html_code);
         });
     }
 
