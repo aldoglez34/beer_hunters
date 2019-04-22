@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v13");
+    console.log("app v14");
 
 };
 
@@ -292,12 +292,16 @@ $("#beerhunt").on("click", function (event) {
 
         var html_code = "";
 
+        console.log("id : " + id);
+        console.log("parent_id : " + parent_id);
+
         // first json call
-        $.getJSON("beers.json", function (data) {
+        $.getJSON("./assets/json/beers.json", function (data) {
 
             html_code += "<option value=''>Select " + id + "</option>";
+            console.log("html code: " + html_code);
 
-            $.each(data, function (key, value) {
+            $.each(data, function (value) {
 
                 if (id == "category") {
 
@@ -319,7 +323,7 @@ $("#beerhunt").on("click", function (event) {
         });
     }
 
-    // run function
+    // run function for category
     load_json_data("category");
 
     // ? ends procedure
