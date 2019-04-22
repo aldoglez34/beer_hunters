@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v22");
+    console.log("app v23");
 
 };
 
@@ -319,6 +319,15 @@ $("#beerhunt").on("click", function (event) {
 
             // html_code += "<option value=''>Select " + id + "</option>";
             // console.log("html code before each: " + html_code);
+
+            var test1 = data[0];
+            console.log("test1: ");
+            console.log(test1);
+
+            var test2 = data.data[0];
+            console.log("test2: ");
+            console.log(test2);
+
 
             $.each(data, function (value) {
 
