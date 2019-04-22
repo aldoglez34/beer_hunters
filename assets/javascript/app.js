@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v10");
+    console.log("app v11");
 
 };
 
@@ -22,6 +22,7 @@ $("#beericon").click(function () {
     $("#currentcontainer").hide();
     $("#randomcontainer").hide();
     $("#beerhuntcontainer").hide();
+
 });
 
 // another location option clicked
@@ -189,7 +190,7 @@ $("#random").on("click", function (event) {
             $("#r_beerphoto").attr("src", beer.labels.medium);
         }
         else {
-            $("#r_beerphoto").attr("src", "../images/nobeerimg.png");
+            $("#r_beerphoto").attr("src", "http://manabouttown.hamburg/wp-content/themes/blogo/images/no-img-portrait.png");
         }
 
         // update the html - description
