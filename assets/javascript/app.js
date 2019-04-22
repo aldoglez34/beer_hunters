@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v26");
+    console.log("app v27");
 
 };
 
@@ -325,7 +325,7 @@ $("#beerhunt").on("click", function (event) {
             console.log("data lenght: " + data.length);
             console.log("first obj from the array: " + data[0]);
 
-            // iterate the json tree and show the categories
+            // populating the category dropdown
             for (var i = 0; i <= data.length; i++) {
                 $("#category").append("<option value='" + value.id + "'>" + value.name + "</option>");
             }
