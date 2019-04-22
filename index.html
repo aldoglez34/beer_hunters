@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container d-flex justify-content-between">
             <i class="fas fa-beer" style="font-size: 38px" id="beericon"></i>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
                         <a class="nav-link" href="#">History</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
 
@@ -163,6 +163,29 @@
 
     <!-- ! BEER HUNT CONTAINER -->
     <div class="container shadow-lg p-3 rounded-bottom css_contcolor text-dark" id="beerhuntcontainer">
+
+        <!-- ? header -->
+        <blockquote class="blockquote text-center">
+            <h1 class="text-center mb-0"><b>Beer Hunt</b></h1>
+            <p class="mb-0" id="latlong">Make your beer choice!</p>
+        </blockquote>
+
+        <!-- ? dropdown menu -->
+        <select name="category" id="category" class="form-control input-lg">
+            <option value="">Select category</option>
+        </select>
+        <br />
+        <select name="type" id="type" class="form-control input-lg">
+            <option value="">Select type</option>
+        </select>
+        <br />
+        <select name="brewery" id="brewery" class="form-control input-lg">
+            <option value="">Select brewery</option>
+        </select>
+        <br />
+        <select name="beer" id="beer" class="form-control input-lg">
+            <option value="">Select beer</option>
+        </select>
 
     </div>
 

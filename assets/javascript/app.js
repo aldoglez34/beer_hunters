@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v11");
+    console.log("app v13");
 
 };
 
@@ -25,7 +25,7 @@ $("#beericon").click(function () {
 
 });
 
-// another location option clicked
+// ! another location option clicked
 $("#select").on("click", function (event) {
 
     // preventing default behavior
@@ -280,8 +280,7 @@ $("#random").on("click", function (event) {
     $("#randomcontainer").show(500);
 });
 
-// current location option clicked
-
+// ! beer hunt option
 $("#beerhunt").on("click", function (event) {
 
     // preventing default behavior
@@ -289,7 +288,39 @@ $("#beerhunt").on("click", function (event) {
 
     // ? begins procedure
 
+    function load_json_data(id, parent_id) {
 
+        var html_code = "";
+
+        // first json call
+        $.getJSON("beers.json", function (data) {
+
+            html_code += "<option value=''>Select " + id + "</option>";
+
+            $.each(data, function (key, value) {
+
+                if (id == "category") {
+
+                    if (value.parent_id == "0") {
+
+                        html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+                    }
+                }
+                else {
+
+                    if (value.parent_id == parent_id) {
+
+                        html_code += "<option value='" + value.id + "'>" + value.name + "</option>";
+                    }
+                }
+            });
+
+            $("#" + id).html(html_code);
+        });
+    }
+
+    // run function
+    load_json_data("category");
 
     // ? ends procedure
 

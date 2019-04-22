@@ -77,10 +77,10 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw8hFnyQv4weAe34Uhrba3H22o52PYXKc&callback=initMap&libraries=places"
         async defer></script>
     <script>
-        
+
         // Current with IP
         var queryURLIP = "https://api.ipify.org?";
-        
+
         // console.log(queryURLIP);
         const apiKeyIP = "at_knMW8P4hXMF72fVn0z8jG2ZnwPsAy";
         $("#current").on("click", getcurrentIP);
@@ -106,7 +106,7 @@
                         })
                 })
         }
-        
+
         // Current with Google Maps
         var map;
         var service;
@@ -245,12 +245,59 @@
         })
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // ! Beer Hunt
         $("#beerhunt").on("click", load_json_data('category'));
+
         function load_json_data(id, parent_id) {
+
             var html_code = '';
+
             $.getJSON('beers.json', function (data) {
+
                 html_code += '<option value="">Select ' + id + '</option>';
+
                 $.each(data, function (key, value) {
                     if (id == 'category') {
                         if (value.parent_id == '0') {
@@ -263,9 +310,13 @@
                         }
                     }
                 });
+
                 $('#' + id).html(html_code);
+
             });
+
         }
+
         $(document).on('change', '#category', function () {
             var category_id = $(this).val();
             if (category_id != '') {
@@ -357,7 +408,7 @@
                 })
             })
         })
-        
+
     </script>
 
 
