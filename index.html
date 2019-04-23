@@ -64,56 +64,43 @@
     <!-- ! MAIN CONTAINER -->
     <div class="container shadow-lg p-3 rounded-bottom css_contcolor" id="searchcontainer">
 
-        <div class="container">
-            <div class="row pl-2">
-                <div class="col p-4">
-                    <!-- ? select location -->
-                    <div class="col-sm css_optdiv" id="select">
-                        <div class="text-center">
-                            <i class="fas fa-map-marked mb-4 css_opticon"></i>
-                        </div>
-                        <div class="text-center">
-                            <p class="lead css_opticontext">Select Location</p>
-                        </div>
+        <!-- ? begins search container -->
+        <div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+            <div class="row">
+                <!-- ? select location -->
+                <div class="col-sm mt-4 css_optdiv" id="select">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked mb-4 css_opticon"></i>
+                    </div>
+                    <div class="text-center">
+                        <p class="lead css_opticontext">Select Location</p>
                     </div>
                 </div>
-                <div class="col p-4">
-                    <!-- ? current location -->
-                    <div class="col-sm css_optdiv" id="current">
-                        <div class="text-center">
-                            <i class="fas fa-map-marker mb-4 css_opticon"></i>
-                        </div>
-                        <div class="text-center">
-                            <p class="lead css_opticontext">Current Location</p>
-                        </div>
+                <!-- ? current location -->
+                <div class="col-sm mt-4 css_optdiv" id="current">
+                    <div class="text-center">
+                        <i class="fas fa-map-marker mb-4 css_opticon"></i>
+                    </div>
+                    <div class="text-center">
+                        <p class="lead css_opticontext">Current Location</p>
                     </div>
                 </div>
-                <div class="w-100"></div>
-                <div class="col p-4">
-                    <!-- ? random beer -->
-                    <div class="col-sm css_optdiv" id="random">
-                        <div class="text-center">
-                            <i class="fas fa-question mb-4 css_opticon"></i>
-                        </div>
-                        <div class="text-center">
-                            <p class="lead ">Random Beer</p>
-                        </div>
+                <!-- ? random beer -->
+                <div class="col-sm mt-4 mt-2 css_optdiv" id="random">
+                    <div class="text-center">
+                        <i class="fas fa-question mb-4 css_opticon"></i>
                     </div>
-                </div>
-                <div class="col p-4">
-                    <!-- ? random beer -->
-                    <div class="col-sm css_optdiv" id="random">
-                        <div class="text-center">
-                            <i class="fab fa-untappd mb-4 css_opticon"></i>
-                        </div>
-                        <div class="text-center">
-                            <p class="lead ">Advanced Hunt</p>
-                        </div>
+                    <div class="text-center">
+                        <p class="lead ">Random Beer</p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- ? beer hunt -->
+        <div class="text-right" style="margin-top: 100px;">
+            <a class="text-muted" style="font-size: 18px;" id="beerhunt" href="#"><u>Advanced Beer Hunt</u></a>
+        </div>
 
     </div>
 
