@@ -389,7 +389,13 @@ $(document).on("change", "#category", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("category item id: " + id);
+    // clear and disable everything
+    $("#type").html();
+    $("#brewery").html();
+    $("#beer").html();
+    document.getElementById("type").disabled = true;
+    document.getElementById("brewery").disabled = true;
+    document.getElementById("beer").disabled = true;
 
     // load the next dropdown
     load_json_data("type", id);
@@ -404,7 +410,11 @@ $(document).on("change", "#type", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("type item id: " + id);
+    // clear and disable everything
+    $("#brewery").html();
+    $("#beer").html();
+    document.getElementById("brewery").disabled = true;
+    document.getElementById("beer").disabled = true;
 
     // load the next dropdown
     load_json_data("brewery", id);
@@ -419,7 +429,9 @@ $(document).on("change", "#brewery", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("brewery item id: " + id);
+    // clear and disable everything
+    $("#beer").html();
+    document.getElementById("beer").disabled = true;
 
     // load the next dropdown
     load_json_data("beer", id);
@@ -431,12 +443,7 @@ $(document).on("change", "#brewery", function () {
 // listener for category dropdown
 $(document).on("change", "#beer", function () {
 
-    // get the id
-    var id = $("option:selected", this).attr("beerid");
-
-    console.log("item id: " + id);
-
-    // enable button
+    // enable hunt button
     document.getElementById("huntbttn").disabled = false;
 
 });
@@ -445,7 +452,7 @@ $(document).on("change", "#beer", function () {
 $("#huntbttn").on("click", function () {
 
     // get the id
-    var beerid = $("option:selected", "#beer").attr("beerid");
+    var id = $("option:selected", "#beer").attr("beerid");
 
     // json call
     $.getJSON("./assets/json/beers2.json", function (array) {
@@ -453,13 +460,30 @@ $("#huntbttn").on("click", function () {
         // getting the array in a var
         var data = array.data;
 
-        // hunt the beer in the json file
+        // hunt the beer in the beers2 file
         for (var i = 0; i <= data.length - 1; i++) {
-            if (data[i].id == beerid) {
+            if (data[i].id == id) {
 
-                var mybeer = data[i];
+                var beerid = data[i].beer_id;
+                console.log("beerid i'm looking for: " + beerid);
 
-                console.log(mybeer);
+                // find the beer on alldata file by beerid
+                $.getJSON("./assets/json/alldata.json", function (response) {
+
+                    // iterate all the json and store the ids
+                    for (i = 0; i < response.data.length; i++) {
+
+                        if (response.data[i].id == beerid) {
+
+                            var huntedbeer = response.data[i];
+                            console.log("hunted beer: ");
+                            console.log(huntedbeer);
+
+                        }
+                    }
+                })
+
+                break;
             }
         }
 
