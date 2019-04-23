@@ -8,10 +8,8 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
     $("#beerresultcontainer").hide();
 
-
-
     // app version
-    console.log("app v49");
+    console.log("app v50");
 };
 
 // ! beer icon thingy
@@ -391,8 +389,11 @@ $(document).on("change", "#category", function () {
 
     // clear and disable everything
     $("#type").html();
+    $("#type").html("<option value='' disabled selected>Select Type</option>");
     $("#brewery").html();
+    $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
+    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("type").disabled = true;
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
@@ -412,7 +413,9 @@ $(document).on("change", "#type", function () {
 
     // clear and disable everything
     $("#brewery").html();
+    $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
+    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
 
@@ -431,6 +434,7 @@ $(document).on("change", "#brewery", function () {
 
     // clear and disable everything
     $("#beer").html();
+    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("beer").disabled = true;
 
     // load the next dropdown
@@ -606,13 +610,13 @@ let cleanDropdowns = function () {
 
     // clean all the dropdowns
     $("#category").html();
-    $("#beer").html("<option value='' disabled selected>Select Category</option>");
+    $("#category").html("<option value='' disabled selected>Select Category</option>");
     $("#type").html();
-    $("#beer").html("<option value='' disabled selected>Select Type</option>");
+    // $("#type").html("<option value='' disabled selected>Select Type</option>");
     $("#brewery").html();
-    $("#beer").html("<option value='' disabled selected>Select Brewery</option>");
+    // $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
-    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
+    // $("#beer").html("<option value='' disabled selected>Select Beer</option>");
 
     // then fill the category dropdown
     load_json_data("category", "0");
