@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     // app version
-    console.log("app v46");
+    console.log("app v47");
 };
 
 // ! beer icon thingy
