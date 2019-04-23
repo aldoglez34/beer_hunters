@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v1");
+    console.log("app v2");
 };
 
 // ! beer icon thingy
@@ -23,7 +23,7 @@ $("#beericon").click(function () {
     $("#currentcontainer").hide();
     $("#randomcontainer").hide();
     $("#beerhuntcontainer").hide();
-    $("#beerresulthuntcontainer").hide();
+    $("#beerresultcontainers").hide();
 
 });
 
