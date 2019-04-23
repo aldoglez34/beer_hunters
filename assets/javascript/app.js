@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v50");
+    console.log("app v51");
 };
 
 // ! beer icon thingy
@@ -184,6 +184,9 @@ $("#nextbeer").on("click", function (event) {
 
     // show a new beer
     showRandomBeer();
+
+    // scroll to top of the screen
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
 });
 
 // random beer function
