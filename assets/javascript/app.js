@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     // app version
-    console.log("app v48");
+    console.log("app v49");
 };
 
 // ! beer icon thingy
@@ -606,9 +606,13 @@ let cleanDropdowns = function () {
 
     // clean all the dropdowns
     $("#category").html();
+    $("#beer").html("<option value='' disabled selected>Select Category</option>");
     $("#type").html();
+    $("#beer").html("<option value='' disabled selected>Select Type</option>");
     $("#brewery").html();
+    $("#beer").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
+    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
 
     // then fill the category dropdown
     load_json_data("category", "0");
