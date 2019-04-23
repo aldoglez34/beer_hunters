@@ -8,7 +8,7 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
 
     // app version
-    console.log("app v34");
+    console.log("app v35");
 
 };
 
@@ -340,7 +340,7 @@ function load_json_data(dropdown, parent) {
                 // populate the category dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("'#" + dropdown + "'").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
@@ -349,7 +349,7 @@ function load_json_data(dropdown, parent) {
                 // populate the type dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("'#" + dropdown + "'").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
@@ -358,13 +358,13 @@ function load_json_data(dropdown, parent) {
                 // populate the type dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("'#" + dropdown + "'").append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
 
             case "beer":
-                
+
                 alert("showing beer");
 
                 break;
