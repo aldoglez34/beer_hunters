@@ -8,9 +8,11 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
     $("#beerresultcontainer").hide();
 
-    // app version
-    console.log("app v41");
+    // disable button from beerhuntcontainer
+    document.getElementById("huntbttn").disabled = true;
 
+    // app version
+    console.log("app v43");
 };
 
 // ! beer icon thingy
@@ -359,9 +361,12 @@ let load_json_data = function (dropdown, parent) {
                 break;
 
             case "beer":
-
-                alert("showing beer");
-
+                // populate the beer dropdown
+                for (var i = 0; i <= data.length - 1; i++) {
+                    if (data[i].parent_id == parent) {
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
+                    }
+                }
                 break;
 
         }
@@ -404,6 +409,49 @@ $(document).on("change", "#brewery", function () {
 
     // load the next dropdown
     load_json_data("beer", id);
+});
+
+// listener for category dropdown
+$(document).on("change", "#brewery", function () {
+
+    // get the id
+    var id = $("option:selected", this).attr("beerid");
+
+    console.log("item id: " + id);
+
+    // load the next dropdown
+    load_json_data("beer", id);
+});
+
+// listener for category dropdown
+$(document).on("change", "#beer", function () {
+
+    // get the id
+    var id = $("option:selected", this).attr("beerid");
+
+    console.log("item id: " + id);
+
+    // enable button
+    document.getElementById("huntbttn").disabled = false;
+
+});
+
+// hunt button
+$("#huntbttn").on("click", function (event) {
+
+    // get the id
+    var beerid = $("option:selected", "#beer").attr("beerid");
+
+    // hunt the beer in the json file
+    for (var i = 0; i <= data.length - 1; i++) {
+        if (data[i].id == beerid) {
+
+            var mybeer = data[i];
+
+            console.log(mybeer);
+        }
+    }
+
 });
 
 // go back to beer hunter button
