@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     // app version
-    console.log("app v47");
+    console.log("app v48");
 };
 
 // ! beer icon thingy
@@ -475,10 +475,101 @@ $("#huntbttn").on("click", function () {
 
                         if (response.data[i].id == beerid) {
 
-                            var huntedbeer = response.data[i];
-                            console.log("hunted beer: ");
-                            console.log(huntedbeer);
+                            var beer = response.data[i];
 
+                            // ! begins update html
+
+                            // update the html - name
+                            $("#br_beername").text(beer.name);
+
+                            // update the html - photo (label)
+                            if (beer.hasOwnProperty("labels")) {
+                                $("#br_beerphoto").attr("src", beer.labels.medium);
+                            }
+                            else {
+                                $("#br_beerphoto").attr("src", "https://bit.ly/2GzN4gH");
+                            }
+
+                            // update the html - description
+                            if (beer.hasOwnProperty("description")) {
+                                $("#br_beerdescription").text(beer.description);
+                            }
+                            else {
+                                $("#br_beerdescription").text("-");
+                            }
+
+                            // update the html - style
+                            if (beer.hasOwnProperty("style")) {
+                                $("#br_stylecategoryname").text(beer.style.category.name);
+                                $("#br_stylename").text(beer.style.name);
+                                $("#br_styledescription").text(beer.style.description);
+                            }
+                            else {
+                                $("#br_stylecategoryname").text("-");
+                                $("#br_stylename").text("-");
+                                $("#br_styledescription").text("-");
+                            }
+
+                            // update the html - abv
+                            if (beer.hasOwnProperty("abv")) {
+                                $("#br_abv").text(beer.abv);
+                            }
+                            else {
+                                $("#br_abv").text("-");
+                            }
+
+                            // update the html - ibu
+                            if (beer.hasOwnProperty("ibu")) {
+                                $("#br_ibu").text(beer.ibu);
+                            }
+                            else {
+                                $("#br_ibu").text("-");
+                            }
+
+                            // update the html - available
+                            if (beer.hasOwnProperty("available")) {
+                                $("#br_availability").text(beer.available.name + " / " + beer.available.description);
+                            }
+                            else {
+                                $("#br_availability").text("-");
+                            }
+
+                            // beer location
+                            var locationID;
+
+                            // json call to the master file to get the location id
+                            $.getJSON("./assets/json/master.json", function (master) {
+
+                                // iterate the data
+                                for (i = 1; i < master.data.length; i++) {
+
+                                    // if the beer id is found
+                                    if (beer.id === master.data[i].C) {
+
+                                        // save the location id in a var
+                                        locationID = master.data[i].G;
+                                    }
+                                }
+
+                                // json call to the locations file
+                                $.getJSON("./assets/json/locations.json", function (response) {
+
+                                    // iterate the data
+                                    for (i = 0; i < response.data.length; i++) {
+
+                                        // find the beer location id 
+                                        if (locationID === response.data[i].id) {
+
+                                            // update the html
+                                            $("#br_wheretobuy").text(response.data[i].locality + ", " + response.data[i].region);
+                                        }
+                                    }
+                                })
+                            })
+
+                            // ! ends update html
+
+                            break;
                         }
                     }
                 })
@@ -488,6 +579,10 @@ $("#huntbttn").on("click", function () {
         }
 
     });
+
+    // hide and show containers accordingly
+    $("#beerhuntcontainer").hide();
+    $("#beerresultcontainer").show(500);
 
 });
 
@@ -511,13 +606,9 @@ let cleanDropdowns = function () {
 
     // clean all the dropdowns
     $("#category").html();
-    $("#category").html("<option value='' disabled selected>Select Category</option>");
     $("#type").html();
-    $("#type").html("<option value='' disabled selected>Select Category</option>");
     $("#brewery").html();
-    $("#brewery").html("<option value='' disabled selected>Select Category</option>");
     $("#beer").html();
-    $("#beer").html("<option value='' disabled selected>Select Category</option>");
 
     // then fill the category dropdown
     load_json_data("category", "0");
