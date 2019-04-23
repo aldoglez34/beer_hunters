@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v39");
+    console.log("app v41");
 
 };
 
@@ -374,12 +374,9 @@ let load_json_data = function (dropdown, parent) {
 $(document).on("change", "#category", function () {
 
     // get the id
-    var id = $(this).attr("beerid");
+    var id = $("option:selected", this).attr("beerid");
 
     console.log("item id: " + id);
-
-    var val = $(this).val();
-    console.log("val: " + val);
 
     // load the next dropdown
     load_json_data("type", id);
@@ -389,7 +386,7 @@ $(document).on("change", "#category", function () {
 $(document).on("change", "#type", function () {
 
     // get the id
-    var id = $(this).attr("beerid");
+    var id = $("option:selected", this).attr("beerid");
 
     console.log("item id: " + id);
 
@@ -401,7 +398,7 @@ $(document).on("change", "#type", function () {
 $(document).on("change", "#brewery", function () {
 
     // get the id
-    var id = $(this).attr("beerid");
+    var id = $("option:selected", this).attr("beerid");
 
     console.log("item id: " + id);
 
