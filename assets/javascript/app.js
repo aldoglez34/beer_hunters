@@ -12,7 +12,7 @@ window.onload = function () {
     document.getElementById("huntbttn").disabled = true;
 
     // app version
-    console.log("app v43");
+    console.log("app v44");
 };
 
 // ! beer icon thingy
@@ -381,7 +381,7 @@ $(document).on("change", "#category", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("item id: " + id);
+    console.log("category item id: " + id);
 
     // load the next dropdown
     load_json_data("type", id);
@@ -393,7 +393,7 @@ $(document).on("change", "#type", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("item id: " + id);
+    console.log("type item id: " + id);
 
     // load the next dropdown
     load_json_data("brewery", id);
@@ -405,19 +405,7 @@ $(document).on("change", "#brewery", function () {
     // get the id
     var id = $("option:selected", this).attr("beerid");
 
-    console.log("item id: " + id);
-
-    // load the next dropdown
-    load_json_data("beer", id);
-});
-
-// listener for category dropdown
-$(document).on("change", "#brewery", function () {
-
-    // get the id
-    var id = $("option:selected", this).attr("beerid");
-
-    console.log("item id: " + id);
+    console.log("brewery item id: " + id);
 
     // load the next dropdown
     load_json_data("beer", id);
@@ -442,15 +430,23 @@ $("#huntbttn").on("click", function (event) {
     // get the id
     var beerid = $("option:selected", "#beer").attr("beerid");
 
-    // hunt the beer in the json file
-    for (var i = 0; i <= data.length - 1; i++) {
-        if (data[i].id == beerid) {
+    // json call
+    $.getJSON("./assets/json/beers2.json", function (array) {
 
-            var mybeer = data[i];
+        // getting the array in a var
+        var data = array.data;
 
-            console.log(mybeer);
+        // hunt the beer in the json file
+        for (var i = 0; i <= data.length - 1; i++) {
+            if (data[i].id == beerid) {
+
+                var mybeer = data[i];
+
+                console.log(mybeer);
+            }
         }
-    }
+
+    });
 
 });
 
