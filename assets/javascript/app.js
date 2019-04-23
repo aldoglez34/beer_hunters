@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v52");
+    console.log("app v54");
 };
 
 // ! beer icon thingy
@@ -391,13 +391,14 @@ $(document).on("change", "#category", function () {
     var id = $("option:selected", this).attr("beerid");
 
     // clear and disable everything
-    $("#type").html();
+    $("#type").empty();
     $("#type").html("<option value='' disabled selected>Select Type</option>");
-    $("#brewery").html();
-    $("#beer").html();
+    $("#brewery").empty();
+    $("#beer").empty();
     document.getElementById("type").disabled = true;
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
+    document.getElementById("huntbttn").disabled = true;
 
     // load the next dropdown
     load_json_data("type", id);
@@ -413,11 +414,12 @@ $(document).on("change", "#type", function () {
     var id = $("option:selected", this).attr("beerid");
 
     // clear and disable everything
-    $("#brewery").html();
+    $("#brewery").empty();
     $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
-    $("#beer").html();
+    $("#beer").empty();
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
+    document.getElementById("huntbttn").disabled = true;
 
     // load the next dropdown
     load_json_data("brewery", id);
@@ -433,9 +435,10 @@ $(document).on("change", "#brewery", function () {
     var id = $("option:selected", this).attr("beerid");
 
     // clear and disable everything
-    $("#beer").html();
+    $("#beer").empty();
     $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("beer").disabled = true;
+    document.getElementById("huntbttn").disabled = true;
 
     // load the next dropdown
     load_json_data("beer", id);
@@ -594,12 +597,12 @@ $("#huntbttn").on("click", function () {
 $("#goback").on("click", function (event) {
 
     // clean dropdowns
-    cleanDropdowns();
+    // cleanDropdowns();
 
     // disable dropdowns accordingly
-    document.getElementById("type").disabled = true;
-    document.getElementById("brewery").disabled = true;
-    document.getElementById("beer").disabled = true;
+    // document.getElementById("type").disabled = true;
+    // document.getElementById("brewery").disabled = true;
+    // document.getElementById("beer").disabled = true;
 
     // hide and show containers
     $("#beerhuntcontainer").show(500);
@@ -609,13 +612,13 @@ $("#goback").on("click", function (event) {
 let cleanDropdowns = function () {
 
     // clean all the dropdowns
-    $("#category").html();
+    $("#category").empty();
     $("#category").html("<option value='' disabled selected>Select Category</option>");
-    $("#type").html();
+    $("#type").empty();
     // $("#type").html("<option value='' disabled selected>Select Type</option>");
-    $("#brewery").html();
+    $("#brewery").empty();
     // $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
-    $("#beer").html();
+    $("#beer").empty();
     // $("#beer").html("<option value='' disabled selected>Select Beer</option>");
 
     // then fill the category dropdown
