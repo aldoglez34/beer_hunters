@@ -210,6 +210,50 @@
 
     </div>
 
+    <!-- ! ADVANCED BEER HUNT CONTAINER (BEER RESULT) -->
+    <div class="container shadow-lg p-3 rounded-bottom css_contcolor text-dark" id="beerresultcontainer">
+
+        <!-- ? beer name -->
+        <blockquote class="blockquote text-center">
+            <h1 class="text-center mb-0"><b id="br_beername"></b></h1>
+            <p class="mb-0" id="br_stylecategoryname"></p>
+            <footer class="blockquote-footer" id="br_stylename"></footer>
+        </blockquote>
+
+        <!-- ? beer photo -->
+        <div class="text-center mt-4">
+            <img src="" alt="Beer Image" width="220" height="300" id="br_beerphoto">
+        </div>
+
+        <!-- ? beer details -->
+        <dl class="row mt-1 p-2 mt-4">
+            <!-- description -->
+            <dt class="col-sm-3">Beer Description</dt>
+            <dd class="col-sm-9 text-justify" id="br_beerdescription"></dd>
+            <!-- style description -->
+            <dt class="col-sm-3">Style Description</dt>
+            <dd class="col-sm-9 text-justify" id="br_styledescription"></dd>
+            <!-- abv -->
+            <dt class="col-sm-3">ABV</dt>
+            <dd class="col-sm-9 text-justify" id="br_abv"></dd>
+            <!-- international bitterness units -->
+            <dt class="col-sm-3">IBU</dt>
+            <dd class="col-sm-9 text-justify" id="br_ibu"></dd>
+            <!-- availability -->
+            <dt class="col-sm-3">Availability</dt>
+            <dd class="col-sm-9 text-justify" id="br_availability"></dd>
+            <!-- where to buy -->
+            <dt class="col-sm-3">Where To Buy</dt>
+            <dd class="col-sm-9 text-justify" id="br_wheretobuy"></dd>
+        </dl>
+
+        <!-- ? next beer -->
+        <div class="text-left mt-4">
+            <a class="text-muted" style="font-size: 18px;" id="goback" href="#"><u>Go Back To Beer Hunter</u></a>
+        </div>
+
+    </div>
+
     <!-- ! LINKS -->
     <!-- popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

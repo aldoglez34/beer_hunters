@@ -6,9 +6,10 @@ window.onload = function () {
     $("#currentcontainer").hide();
     $("#randomcontainer").hide();
     $("#beerhuntcontainer").hide();
+    $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v35");
+    console.log("app v36");
 
 };
 
@@ -23,6 +24,7 @@ $("#beericon").click(function () {
     $("#currentcontainer").hide();
     $("#randomcontainer").hide();
     $("#beerhuntcontainer").hide();
+    $("#beerresulthuntcontainer").hide();
 
 });
 
@@ -325,7 +327,7 @@ $("#beerhunt").on("click", function (event) {
     $("#beerhuntcontainer").show(500);
 });
 
-// fill the dropdowns
+// fill the dropdowns function
 function load_json_data(dropdown, parent) {
 
     // json call
@@ -381,6 +383,8 @@ $(document).on("change", "#category", function () {
     // get the id
     var id = $(this).attr("Value");
 
+    console.log(id);
+
     // load the next dropdown
     load_json_data("type", id);
 });
@@ -403,4 +407,10 @@ $(document).on("change", "#brewery", function () {
 
     // load the next dropdown
     load_json_data("beer", id);
+});
+
+// go back to beer hunter button
+$("#goback").on("click", function (event) {
+
+
 });
