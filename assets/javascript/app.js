@@ -8,11 +8,10 @@ window.onload = function () {
     $("#beerhuntcontainer").hide();
     $("#beerresultcontainer").hide();
 
-    // disable button from beerhuntcontainer
-    document.getElementById("huntbttn").disabled = true;
+
 
     // app version
-    console.log("app v44");
+    console.log("app v45");
 };
 
 // ! beer icon thingy
@@ -316,6 +315,15 @@ $("#beerhunt").on("click", function (event) {
     // fill the category dropdown
     load_json_data("category", "0");
 
+    // disable button from beerhuntcontainer
+    document.getElementById("huntbttn").disabled = true;
+
+    // disable dropdowns accordingly
+    document.getElementById("type").disabled = true;
+    document.getElementById("brewery").disabled = true;
+    document.getElementById("beer").disabled = true;
+
+
     // hide and show containers accordingly
     $("#titlediv").hide();
     $("#searchcontainer").hide();
@@ -385,6 +393,9 @@ $(document).on("change", "#category", function () {
 
     // load the next dropdown
     load_json_data("type", id);
+
+    // enable type dropdown
+    document.getElementById("type").disabled = false;
 });
 
 // listener for category dropdown
@@ -397,6 +408,9 @@ $(document).on("change", "#type", function () {
 
     // load the next dropdown
     load_json_data("brewery", id);
+
+    // enable brewery dropdown
+    document.getElementById("type").disabled = false;
 });
 
 // listener for category dropdown
@@ -409,6 +423,9 @@ $(document).on("change", "#brewery", function () {
 
     // load the next dropdown
     load_json_data("beer", id);
+
+    // enable beer dropdown
+    document.getElementById("type").disabled = false;
 });
 
 // listener for category dropdown
@@ -425,7 +442,7 @@ $(document).on("change", "#beer", function () {
 });
 
 // hunt button
-$("#huntbttn").on("click", function (event) {
+$("#huntbttn").on("click", function () {
 
     // get the id
     var beerid = $("option:selected", "#beer").attr("beerid");
@@ -455,6 +472,11 @@ $("#goback").on("click", function (event) {
 
     // clean dropdowns
     cleanDropdowns();
+
+    // disable dropdowns accordingly
+    document.getElementById("type").disabled = true;
+    document.getElementById("brewery").disabled = true;
+    document.getElementById("beer").disabled = true;
 
     // hide and show containers
     $("#beerhuntcontainer").show(500);
