@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v37");
+    console.log("app v38");
 
 };
 
@@ -309,14 +309,7 @@ $("#beerhunt").on("click", function (event) {
     event.preventDefault();
 
     // clean all the dropdowns
-    $("#category").html();
-    $("#category").html("<option value='' disabled selected>Select Category</option>");
-    $("#type").html();
-    $("#type").html("<option value='' disabled selected>Select Category</option>");
-    $("#brewery").html();
-    $("#brewery").html("<option value='' disabled selected>Select Category</option>");
-    $("#beer").html();
-    $("#beer").html("<option value='' disabled selected>Select Category</option>");
+    cleanDropdowns();
 
     // fill the category dropdown
     load_json_data("category", "0");
@@ -328,7 +321,7 @@ $("#beerhunt").on("click", function (event) {
 });
 
 // fill the dropdowns function
-function load_json_data(dropdown, parent) {
+let load_json_data = function (dropdown, parent) {
 
     // json call
     $.getJSON("./assets/json/beers2.json", function (array) {
@@ -342,7 +335,7 @@ function load_json_data(dropdown, parent) {
                 // populate the category dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
@@ -351,7 +344,7 @@ function load_json_data(dropdown, parent) {
                 // populate the type dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
@@ -360,7 +353,7 @@ function load_json_data(dropdown, parent) {
                 // populate the type dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].parent_id == parent) {
-                        $("#" + dropdown).append("<option value='" + data[i].id + "'>" + data[i].name + "</option>");
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
                     }
                 }
                 break;
@@ -381,9 +374,9 @@ function load_json_data(dropdown, parent) {
 $(document).on("change", "#category", function () {
 
     // get the id
-    var id = $(this).attr("Value");
+    var id = $(this).attr("beerid");
 
-    console.log(id);
+    console.log("item id: " + id);
 
     // load the next dropdown
     load_json_data("type", id);
@@ -393,7 +386,9 @@ $(document).on("change", "#category", function () {
 $(document).on("change", "#type", function () {
 
     // get the id
-    var id = $(this).attr("Value");
+    var id = $(this).attr("beerid");
+
+    console.log("item id: " + id);
 
     // load the next dropdown
     load_json_data("brewery", id);
@@ -403,7 +398,9 @@ $(document).on("change", "#type", function () {
 $(document).on("change", "#brewery", function () {
 
     // get the id
-    var id = $(this).attr("Value");
+    var id = $(this).attr("beerid");
+
+    console.log("item id: " + id);
 
     // load the next dropdown
     load_json_data("beer", id);
@@ -412,5 +409,27 @@ $(document).on("change", "#brewery", function () {
 // go back to beer hunter button
 $("#goback").on("click", function (event) {
 
+    // clean dropdowns
+    cleanDropdowns();
 
+    // hide and show containers
+    $("#beerhuntcontainer").show(500);
+    $("#beerresultcontainer").hide();
 });
+
+let cleanDropdowns = function () {
+
+    // clean all the dropdowns
+    $("#category").html();
+    $("#category").html("<option value='' disabled selected>Select Category</option>");
+    $("#type").html();
+    $("#type").html("<option value='' disabled selected>Select Category</option>");
+    $("#brewery").html();
+    $("#brewery").html("<option value='' disabled selected>Select Category</option>");
+    $("#beer").html();
+    $("#beer").html("<option value='' disabled selected>Select Category</option>");
+
+    // then fill the category dropdown
+    load_json_data("category", "0");
+
+}
