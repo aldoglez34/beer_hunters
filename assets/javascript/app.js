@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v51");
+    console.log("app v52");
 };
 
 // ! beer icon thingy
@@ -394,9 +394,7 @@ $(document).on("change", "#category", function () {
     $("#type").html();
     $("#type").html("<option value='' disabled selected>Select Type</option>");
     $("#brewery").html();
-    $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
-    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("type").disabled = true;
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
@@ -418,7 +416,6 @@ $(document).on("change", "#type", function () {
     $("#brewery").html();
     $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
     $("#beer").html();
-    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
 
