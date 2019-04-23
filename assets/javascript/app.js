@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v38");
+    console.log("app v39");
 
 };
 
@@ -377,6 +377,9 @@ $(document).on("change", "#category", function () {
     var id = $(this).attr("beerid");
 
     console.log("item id: " + id);
+
+    var val = $(this).val();
+    console.log("val: " + val);
 
     // load the next dropdown
     load_json_data("type", id);
