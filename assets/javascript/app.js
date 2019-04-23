@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     // app version
-    console.log("app v45");
+    console.log("app v46");
 };
 
 // ! beer icon thingy
@@ -410,7 +410,7 @@ $(document).on("change", "#type", function () {
     load_json_data("brewery", id);
 
     // enable brewery dropdown
-    document.getElementById("type").disabled = false;
+    document.getElementById("brewery").disabled = false;
 });
 
 // listener for category dropdown
@@ -425,7 +425,7 @@ $(document).on("change", "#brewery", function () {
     load_json_data("beer", id);
 
     // enable beer dropdown
-    document.getElementById("type").disabled = false;
+    document.getElementById("beer").disabled = false;
 });
 
 // listener for category dropdown
