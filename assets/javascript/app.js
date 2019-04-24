@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v105");
+    console.log("app v106");
 };
 
 // ! beer icon thingy
@@ -105,11 +105,7 @@ $(document).on("change", "#sl_category", function () {
     // enable type
     document.getElementById("sl_type").disabled = false;
 
-    // show brewery info
-    $("#breweryinfo").show(500);
-
-    var locationid = $("option:selected", this).attr("locationid");
-    var breweryid = $("option:selected", this).attr("breweryid");
+    var categoryid = $("option:selected", this).attr("categoryid");
 
     // clear dropdowns
     $("#beerslist").empty();
@@ -119,10 +115,35 @@ $(document).on("change", "#sl_category", function () {
     $("#sl_type").html("<option value='' disabled selected>Beer Types</option>");
 
     // load brewery card
-    // showBreweryCard(locationid, breweryid);
+    fillTypeDropdown(categoryid);
 });
 
-// show brewery info
+// listener for type dropdown
+$(document).on("change", "#sl_type", function () {
+
+    var typeid = $("option:selected", this).attr("typeid");
+
+    // ? show beers
+
+});
+
+let fillTypeDropdown = function (categoryid) {
+
+    $.getJSON("./assets/json/beers2.json", function (beers2) {
+
+        var beers2 = beers2.data;
+
+        for (var i = 0; i <= beers2.length - 1; i++) {
+
+            if (beers2[i].parent_id == categoryid) {
+
+                // add the item to the dropdown
+                $("#sl_type").append("<option typeid='" + beers2[i].id + "'>" + beers2[i].name + "</option>");
+            }
+        }
+    });
+}
+
 let showBreweryCard = function (locationid, breweryid) {
 
     // json call to find and show the location info
