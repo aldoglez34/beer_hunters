@@ -68,16 +68,20 @@ $("#select").on("click", function (event) {
 
 let canAddRegion = function (array, item) {
 
+    console.log("now evaluating: " + item);
+
     var canAddRegion = true;
 
     for (var i = 0; i <= array.length; i++) {
 
-        if (array[i] == item) {
+        if (array[i] === item) {
 
             canAddRegion = false;
             break;
         }
     }
+
+    console.log("canAddRegion: " + canAddRegion);
 
     return canAddRegion;
 }
