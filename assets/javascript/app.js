@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v109");
+    console.log("app v110");
 };
 
 // ! beer icon thingy
@@ -121,13 +121,14 @@ $(document).on("change", "#sl_category", function () {
 // listener for type dropdown
 $(document).on("change", "#sl_type", function () {
 
-    $("#beersdiv").empty();
     $("#beersdiv").show(500);
 
     var typeid = $("option:selected", this).attr("typeid");
 
     // ? show beers
     $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
+
+        $("#beersdiv").empty();
 
         var alldata = jsonalldata.data;
 
