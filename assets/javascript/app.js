@@ -39,7 +39,7 @@ $("#select").on("click", function (event) {
     // clear region container
     $("#sl_region").empty();
     // add default
-    $("#sl_region").html("<option value='' disabled selected>Select Region</option>");
+    $("#sl_region").html("<option value='' disabled selected>Regions</option>");
 
     // json call to load region dropdown
     $.getJSON("./assets/json/locations.json", function (array) {
