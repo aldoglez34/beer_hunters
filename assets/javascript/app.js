@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v90");
+    console.log("app v92");
 };
 
 // ! beer icon thingy
@@ -362,7 +362,7 @@ let showRandomBeer = function () {
             $("#r_beerdescription").text(beer.description);
         }
         else {
-            $("#r_beerdescription").text("-");
+            $("#r_beerdescription").text("N/A");
         }
 
         // update the html - style
@@ -372,9 +372,9 @@ let showRandomBeer = function () {
             $("#r_styledescription").text(beer.style.description);
         }
         else {
-            $("#r_stylecategoryname").text("-");
-            $("#r_stylename").text("-");
-            $("#r_styledescription").text("-");
+            $("#r_stylecategoryname").text("N/A");
+            $("#r_stylename").text("N/A");
+            $("#r_styledescription").text("N/A");
         }
 
         // update the html - abv
@@ -382,7 +382,7 @@ let showRandomBeer = function () {
             $("#r_abv").text(beer.abv);
         }
         else {
-            $("#r_abv").text("-");
+            $("#r_abv").text("N/A");
         }
 
         // update the html - ibu
@@ -390,7 +390,7 @@ let showRandomBeer = function () {
             $("#r_ibu").text(beer.ibu);
         }
         else {
-            $("#r_ibu").text("-");
+            $("#r_ibu").text("N/A");
         }
 
         // update the html - available
@@ -398,7 +398,7 @@ let showRandomBeer = function () {
             $("#r_availability").text(beer.available.name + " / " + beer.available.description);
         }
         else {
-            $("#r_availability").text("-");
+            $("#r_availability").text("N/A");
         }
 
         // beer location
@@ -637,7 +637,7 @@ $("#huntbttn").on("click", function () {
                                 $("#br_beerdescription").text(beer.description);
                             }
                             else {
-                                $("#br_beerdescription").text("-");
+                                $("#br_beerdescription").text("N/A");
                             }
 
                             // update the html - style
@@ -647,9 +647,9 @@ $("#huntbttn").on("click", function () {
                                 $("#br_styledescription").text(beer.style.description);
                             }
                             else {
-                                $("#br_stylecategoryname").text("-");
-                                $("#br_stylename").text("-");
-                                $("#br_styledescription").text("-");
+                                $("#br_stylecategoryname").text("N/A");
+                                $("#br_stylename").text("N/A");
+                                $("#br_styledescription").text("N/A");
                             }
 
                             // update the html - abv
@@ -657,7 +657,7 @@ $("#huntbttn").on("click", function () {
                                 $("#br_abv").text(beer.abv);
                             }
                             else {
-                                $("#br_abv").text("-");
+                                $("#br_abv").text("N/A");
                             }
 
                             // update the html - ibu
@@ -673,7 +673,7 @@ $("#huntbttn").on("click", function () {
                                 $("#br_availability").text(beer.available.name + " / " + beer.available.description);
                             }
                             else {
-                                $("#br_availability").text("-");
+                                $("#br_availability").text("N/A");
                             }
 
                             // beer location
