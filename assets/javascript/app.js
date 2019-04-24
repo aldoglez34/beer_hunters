@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v78");
+    console.log("app v79");
 };
 
 // ! beer icon thingy
@@ -56,9 +56,19 @@ $("#select").on("click", function (event) {
             if (canAddRegion(regions, data[i].region)) {
 
                 regions.push(data[i].region);
-                $("#sl_region").append("<option locationid='" + data[i].id + "'>" + data[i].region + "</option>");
+                // $("#sl_region").append("<option locationid='" + data[i].id + "'>" + data[i].region + "</option>");
             }
         }
+
+        // sort alphabetically
+        regions.sort();
+
+        // update html
+        for (var i = 0; i <= regions.length - 1; i++) {
+
+            $("#sl_region").append("<option>" + regions[i] + "</option>");
+        }
+
     });
 
     // hide and show containers accordingly
@@ -87,6 +97,83 @@ let canAddRegion = function (array, item) {
 
 
     return canAddRegion;
+}
+
+// listener for region dropdown
+$(document).on("change", "#sl_category", function () {
+
+    // get the id
+    var id = $("option:selected", this).attr("locationid");
+
+    // clear and disable everything
+    $("#sl_category").empty();
+    $("#sl_category").html("<option value='' disabled selected>Select Type</option>");
+    $("#sl_type").empty();
+    $("#sl_brewery").empty();
+    $("#sl_beer").empty();
+    document.getElementById("sl_type").disabled = true;
+    document.getElementById("sl_brewery").disabled = true;
+    document.getElementById("sl_beer").disabled = true;
+    document.getElementById("sl_huntbttn").disabled = true;
+
+    // load the next dropdown
+    sl_load_json_data("category", id);
+
+    // enable type dropdown
+    document.getElementById("sl_category").disabled = false;
+});
+
+// fill the dropdowns function
+let sl_load_json_data = function (dropdown, parent) {
+
+    // json call
+    $.getJSON("./assets/json/beers2.json", function (array) {
+
+        // getting the array in a var
+        var data = array.data;
+
+        switch (dropdown) {
+
+            case "category":
+                // populate the category dropdown
+                for (var i = 0; i <= data.length - 1; i++) {
+                    if (data[i].parent_id == parent) {
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
+                    }
+                }
+                break;
+
+            case "type":
+                // populate the type dropdown
+                for (var i = 0; i <= data.length - 1; i++) {
+                    if (data[i].parent_id == parent) {
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
+                    }
+                }
+                break;
+
+            case "brewery":
+                // populate the type dropdown
+                for (var i = 0; i <= data.length - 1; i++) {
+                    if (data[i].parent_id == parent) {
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
+                    }
+                }
+                break;
+
+            case "beer":
+                // populate the beer dropdown
+                for (var i = 0; i <= data.length - 1; i++) {
+                    if (data[i].parent_id == parent) {
+                        $("#" + dropdown).append("<option beerid='" + data[i].id + "'>" + data[i].name + "</option>");
+                    }
+                }
+                break;
+
+        }
+
+    });
+
 }
 
 // ! my current location clicked
