@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v106");
+    console.log("app v107");
 };
 
 // ! beer icon thingy
@@ -124,7 +124,27 @@ $(document).on("change", "#sl_type", function () {
     var typeid = $("option:selected", this).attr("typeid");
 
     // ? show beers
+    $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
 
+        var alldata = jsonalldata.data;
+
+        for (var i = 0; i <= alldata.length - 1; i++) {
+
+            if (alldata[i].styleId == typeid) {
+
+                $("#sl_beers").append("<div class='list-group'>"
+                    + "<a href='#' class='list-group-item list-group-item-action'>"
+                    + "<div class='d-flex w-100 justify-content-between'>"
+                    + "<h5 class='mb-1'>" + alldata[i].name + "</h5>"
+                    + "</div>"
+                    + "<p class='mb-1'>" + alldata[i].style.name + "</p>"
+                    + "<small class='text-muted'>" + alldata[i].style.shortName + "</small>"
+                    + "</a>"
+                    + "</div>");
+
+            }
+        }
+    });
 });
 
 let fillTypeDropdown = function (categoryid) {
