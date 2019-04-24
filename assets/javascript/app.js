@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v73");
+    console.log("app v74");
 };
 
 // ! beer icon thingy
@@ -53,8 +53,8 @@ $("#select").on("click", function (event) {
         // populate the regions array
         for (var i = 0; i <= data.length - 1; i++) {
 
-            if (!regions.includes(data[i])) {
-                regions.push(data[i]);
+            if (canAddRegion(regions, data[i])) {
+
                 $("#sl_region").append("<option locationid='" + data[i].id + "'>" + data[i].region + "</option>");
             }
         }
@@ -65,6 +65,22 @@ $("#select").on("click", function (event) {
     $("#searchcontainer").hide();
     $("#selectcontainer").show(500);
 });
+
+let canAddRegion = function (array, item) {
+
+    var canAddRegion = true;
+
+    for (var i = 0; i <= array.length; i++) {
+
+        if (array[i] == item) {
+
+            canAddRegion = false;
+            break;
+        }
+    }
+
+    return canAddRegion;
+}
 
 // ! my current location clicked
 // current location option clicked
