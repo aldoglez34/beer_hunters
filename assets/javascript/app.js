@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v101");
+    console.log("app v102");
 };
 
 // ! beer icon thingy
@@ -67,6 +67,8 @@ $(document).on("change", "#sl_region", function () {
 
     var locationid = $("option:selected", this).attr("locationid");
     var breweryid = $("option:selected", this).attr("breweryid");
+
+    $("#beerslist").empty();
 
     // load brewery card
     showBreweryCard(locationid, breweryid);
@@ -163,7 +165,7 @@ let showBreweryCard = function (locationid, breweryid) {
 
                         // show beer
                         $("#beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
-                            + "<div class= 'd-flex w-100 justify-content-between'>"
+                            + "<div class='d-flex w-100 justify-content-between'>"
                             + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
                             + "</div>"
                             + "<p class='mb-1'>" + alldata[ii].style.name + "</p>"
