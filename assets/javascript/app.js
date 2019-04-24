@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v97");
+    console.log("app v98");
 };
 
 // ! beer icon thingy
@@ -135,13 +135,21 @@ let showBreweryCard = function (locationid, breweryid) {
         }
     });
 
+    console.log("so far so good");
+
     // get the beer ids from the master file
     var beerids = [];
     $.getJSON("./assets/json/master.json", function (jsonmaster) {
 
+        console.log("reading master.json");
+
         var master = jsonmaster.data;
 
+        console.log("master length: " + master.length);
+
         for (var i = 1; i <= master.length; i++) {
+
+            console.log("now evaluating this brewery id: " + master[i].F);
 
             if (master[i].F === breweryid) {
 
@@ -149,6 +157,7 @@ let showBreweryCard = function (locationid, breweryid) {
             }
         }
 
+        console.log("beerids finished: ");
         console.log(beerids);
 
         $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
