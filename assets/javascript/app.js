@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v99");
+    console.log("app v100");
 };
 
 // ! beer icon thingy
@@ -157,7 +157,7 @@ let showBreweryCard = function (locationid, breweryid) {
 
                 var beerid = beerids[i];
 
-                for (var ii = 0; ii <= alldata.length; ii++) {
+                for (var ii = 0; ii <= alldata.length - 1; ii++) {
 
                     if (beerid == alldata[ii].id) {
 
