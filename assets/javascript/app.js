@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v107");
+    console.log("app v108");
 };
 
 // ! beer icon thingy
@@ -36,7 +36,7 @@ $("#select").on("click", function (event) {
 
     // hide brewery info
     $("#breweryinfo").hide();
-    $("#sl_beers").hide();
+    $("#beersdiv").hide();
 
     // clean beers
     $("#beerslist").empty();
@@ -120,6 +120,8 @@ $(document).on("change", "#sl_category", function () {
 
 // listener for type dropdown
 $(document).on("change", "#sl_type", function () {
+
+    $("#beersdiv").show(500);
 
     var typeid = $("option:selected", this).attr("typeid");
 
