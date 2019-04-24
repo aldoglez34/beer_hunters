@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v95");
+    console.log("app v96");
 };
 
 // ! beer icon thingy
@@ -76,15 +76,15 @@ $(document).on("change", "#sl_region", function () {
 let showBreweryCard = function (locationid, breweryid) {
 
     // json call to find and show the location info
-    $.getJSON("./assets/json/locations.json", function (array) {
+    $.getJSON("./assets/json/locations.json", function (jsonlocations) {
 
-        var data = array.data;
+        var locations = jsonlocations.data;
 
-        for (var i = 0; i <= data.length; i++) {
+        for (var i = 0; i <= locations.length; i++) {
 
-            if (data[i].id == locationid) {
+            if (locations[i].id == locationid) {
 
-                var location = data[i];
+                var location = locations[i];
 
                 // update html
                 $("#locationname").text("Location: " + location.name);
@@ -114,15 +114,15 @@ let showBreweryCard = function (locationid, breweryid) {
     });
 
     // json call to find and show the brewery info
-    $.getJSON("./assets/json/breweries.json", function (array) {
+    $.getJSON("./assets/json/breweries.json", function (jsonbreweries) {
 
-        var data = array.data;
+        var breweries = jsonbreweries.data;
 
-        for (var i = 0; i <= data.length; i++) {
+        for (var i = 0; i <= breweries.length; i++) {
 
-            if (data[i].id == breweryid) {
+            if (breweries[i].id == breweryid) {
 
-                var brewery = data[i];
+                var brewery = breweries[i];
 
                 // update html
                 $("#breweryname").text(brewery.name);
@@ -137,37 +137,39 @@ let showBreweryCard = function (locationid, breweryid) {
 
     // get the beer ids from the master file
     var beerids = [];
-    $.getJSON("./assets/json/master.json", function (array) {
+    $.getJSON("./assets/json/master.json", function (jsonmaster) {
 
-        var data = array.data;
+        var master = jsonmaster.data;
 
-        for (var i = 1; i <= data.length; i++) {
+        for (var i = 1; i <= master.length; i++) {
 
-            if (data[i].F == breweryid) {
+            if (master[i].F === breweryid) {
 
-                beerids.push(data[i].C);
+                beerids.push(master[i].C);
             }
         }
 
-        $.getJSON("./assets/json/alldata.json", function (array) {
+        console.log(beerids);
 
-            var data = array.data;
+        $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
+
+            var alldata = jsonalldata.data;
 
             for (var i = 0; i <= beerids.length; i++) {
 
                 var beerid = beerids[i];
 
-                for (var ii = 0; ii <= data.length; ii++) {
+                for (var ii = 0; ii <= alldata.length; ii++) {
 
-                    if (beerid == data[i].id) {
+                    if (beerid == alldata[i].id) {
 
                         // show beer
                         $("beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
                             + "<div class= 'd-flex w-100 justify-content-between'>"
-                            + "<h5 class='mb-1'>" + data[i].name + "</h5>"
+                            + "<h5 class='mb-1'>" + alldata[i].name + "</h5>"
                             + "</div>"
-                            + "<p class='mb-1'>" + data[i].style.name + "</p>"
-                            + "<small class='text-muted'>" + data[i].style.shortName + "</small>"
+                            + "<p class='mb-1'>" + alldata[i].style.name + "</p>"
+                            + "<small class='text-muted'>" + alldata[i].style.shortName + "</small>"
                             + "</a>");
 
                         break;
@@ -177,45 +179,6 @@ let showBreweryCard = function (locationid, breweryid) {
             }
         });
     });
-}
-
-// fill the dropdowns function
-let sl_load_json_data = function (dropdown, parent) {
-
-    // json call
-    $.getJSON("./assets/json/breweries.json", function (array) {
-
-        // getting the array in a var
-        var data = array.data;
-
-        switch (dropdown) {
-
-            case "sl_brewery":
-                // populate the brewery dropdown
-                for (var i = 0; i <= data.length - 1; i++) {
-                    if (data[i].id == parent) {
-                        $("#" + dropdown).append("<option breweryid='" + data[i].id + "'>" + data[i].name + "</option>");
-                        break;
-                    }
-                }
-                break;
-
-            case "type":
-
-                break;
-
-            case "brewery":
-
-                break;
-
-            case "beer":
-
-                break;
-
-        }
-
-    });
-
 }
 
 // ! my current location clicked
