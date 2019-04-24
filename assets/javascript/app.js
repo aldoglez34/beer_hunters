@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v80");
+    console.log("app v81");
 };
 
 // ! beer icon thingy
@@ -50,7 +50,7 @@ $("#select").on("click", function (event) {
         // populate the regions array
         for (var i = 0; i <= data.length - 1; i++) {
 
-            $("#sl_region").append("<option breweryid='" + data[i].brewery.id + "'>" + data[i].region + ", " + data[i].locality + "</option>");
+            $("#sl_region").append("<option breweryid='" + data[i].breweryId + "'>" + data[i].region + ", " + data[i].locality + "</option>");
         }
     });
 
@@ -86,7 +86,7 @@ let sl_load_json_data = function (dropdown, parent) {
 
         switch (dropdown) {
 
-            case "sl_region":
+            case "sl_brewery":
                 // populate the brewery dropdown
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].id == parent) {
