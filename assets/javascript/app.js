@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v83");
+    console.log("app v84");
 };
 
 // ! beer icon thingy
@@ -34,17 +34,13 @@ $("#select").on("click", function (event) {
     // preventing default behavior
     event.preventDefault();
 
+    $("#breweryinfo").hide();
+
     // ? fill the region container
 
     // clear region container
     $("#sl_region").empty();
-    // add default
-    $("#sl_region").html("<option value='' disabled selected>Select Region</option>");
-    // clear and disable dropdowns
-    $("#sl_brewery").empty();
-    document.getElementById("sl_brewery").disabled = true;
     document.getElementById("sl_huntbttn").disabled = true;
-
 
     // json call to load region dropdown
     $.getJSON("./assets/json/locations.json", function (array) {
@@ -55,7 +51,7 @@ $("#select").on("click", function (event) {
         // populate the regions array
         for (var i = 0; i <= data.length - 1; i++) {
 
-            $("#sl_region").append("<option breweryid='" + data[i].breweryId + "'>" + data[i].region + ", " + data[i].locality + "</option>");
+            $("#sl_region").append("<option breweryid='" + data[i].breweryId + "' locationid='" + data[i].id + "'>" + data[i].region + ", " + data[i].locality + "</option>");
         }
     });
 
@@ -68,17 +64,63 @@ $("#select").on("click", function (event) {
 // listener for region dropdown
 $(document).on("change", "#sl_region", function () {
 
-    // get the id
-    var id = $("option:selected", this).attr("breweryid");
+    $("#breweryinfo").show(500);
 
-    // clear, enable and disable stuff
-    $("#sl_brewery").empty();
-    $("#sl_brewery").html("<option value='' disabled selected>Select Brewery</option>");
-    document.getElementById("sl_brewery").disabled = false;
+    var locationid = $("option:selected", this).attr("locationid");
+    var breweryid = $("option:selected", this).attr("breweryid");
 
-    // load the next dropdown
-    sl_load_json_data("sl_brewery", id);
+    // load brewery card
+    showBrewery(locationid, breweryid);
 });
+
+let showBrewery = function (locationid, breweryid) {
+
+    // json call to find and show the location info
+    $.getJSON("./assets/json/locations.json", function (array) {
+
+        var data = array.data;
+
+        for (var i = 0; i <= data.length - 1; i++) {
+
+            if (data[i].id == locationid) {
+
+                var location = data[i];
+
+                // update html
+                $("#locationname").text("Location: " + location.name);
+                $("#locationaddress").text("Address: " + location.streetAddress);
+                $("#locationpostalcode").text("Postal Code: " + location.postalCode);
+                $("#locationphone").text("Phone: " + location.phone);
+                $("#locationwebsite").text("Website: " + location.website);
+
+                break;
+            }
+        }
+
+    });
+
+    // json call to find and show the brewery info
+    $.getJSON("./assets/json/breweries.json", function (array) {
+
+        var data = array.data;
+
+        for (var i = 0; i <= data.length - 1; i++) {
+
+            if (data[i].id == breweryid) {
+
+                var brewery = data[i];
+
+                // update html
+                $("#breweryname").text(brewery.name);
+                $("#breweryestablishedin").text("Established in " + brewery.established);
+                $("#brewerylogo").attr("src", brewery.images.medium);
+                $("#brewerydescription").text(brewery.description);
+
+                break;
+            }
+        }
+    });
+}
 
 // fill the dropdowns function
 let sl_load_json_data = function (dropdown, parent) {
@@ -96,6 +138,7 @@ let sl_load_json_data = function (dropdown, parent) {
                 for (var i = 0; i <= data.length - 1; i++) {
                     if (data[i].id == parent) {
                         $("#" + dropdown).append("<option breweryid='" + data[i].id + "'>" + data[i].name + "</option>");
+                        break;
                     }
                 }
                 break;
