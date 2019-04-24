@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v100");
+    console.log("app v101");
 };
 
 // ! beer icon thingy
@@ -162,7 +162,7 @@ let showBreweryCard = function (locationid, breweryid) {
                     if (beerid == alldata[ii].id) {
 
                         // show beer
-                        $("beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
+                        $("#beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
                             + "<div class= 'd-flex w-100 justify-content-between'>"
                             + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
                             + "</div>"
