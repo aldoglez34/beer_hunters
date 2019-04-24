@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v92");
+    console.log("app v93");
 };
 
 // ! beer icon thingy
@@ -527,7 +527,7 @@ $(document).on("change", "#category", function () {
 
     // clear and disable everything
     $("#type").empty();
-    $("#type").html("<option value='' disabled selected>Select Type</option>");
+    $("#type").html("<option value='' disabled selected>Types</option>");
     $("#brewery").empty();
     $("#beer").empty();
     document.getElementById("type").disabled = true;
@@ -550,7 +550,7 @@ $(document).on("change", "#type", function () {
 
     // clear and disable everything
     $("#brewery").empty();
-    $("#brewery").html("<option value='' disabled selected>Select Brewery</option>");
+    $("#brewery").html("<option value='' disabled selected>Breweries</option>");
     $("#beer").empty();
     document.getElementById("brewery").disabled = true;
     document.getElementById("beer").disabled = true;
@@ -571,7 +571,7 @@ $(document).on("change", "#brewery", function () {
 
     // clear and disable everything
     $("#beer").empty();
-    $("#beer").html("<option value='' disabled selected>Select Beer</option>");
+    $("#beer").html("<option value='' disabled selected>Beers</option>");
     document.getElementById("beer").disabled = true;
     document.getElementById("huntbttn").disabled = true;
 
