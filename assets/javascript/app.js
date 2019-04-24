@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v86");
+    console.log("app v87");
 };
 
 // ! beer icon thingy
@@ -36,13 +36,10 @@ $("#select").on("click", function (event) {
 
     $("#breweryinfo").hide();
 
-    // add default
-    $("#sl_region").html("<option value='' disabled selected>Select Region</option>");
-
-    // ? fill the region container
-
     // clear region container
     $("#sl_region").empty();
+    // add default
+    $("#sl_region").html("<option value='' disabled selected>Select Region</option>");
 
     // json call to load region dropdown
     $.getJSON("./assets/json/locations.json", function (array) {
@@ -94,8 +91,14 @@ let showBrewery = function (locationid, breweryid) {
                 $("#locationaddress").text("Address: " + location.streetAddress);
                 $("#locationpostalcode").text("Postal Code: " + location.postalCode);
                 $("#locationphone").text("Phone: " + location.phone);
-                $("#locationwebsite").attr("href" + location.website);
-                $("#locationwebsite").text("Website: " + location.website);
+                if (typeof location.website === "undefined") {
+
+                    $("#locationwebsite").text("Website: -");
+                }
+                else {
+
+                    $("#locationwebsite").html("<a href='" + location.website + "' target='_blank'>" + location.website + "</a>");
+                }
 
                 break;
             }
