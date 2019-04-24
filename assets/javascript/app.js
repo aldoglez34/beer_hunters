@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v103");
+    console.log("app v104");
 };
 
 // ! beer icon thingy
@@ -34,12 +34,25 @@ $("#select").on("click", function (event) {
     // preventing default behavior
     event.preventDefault();
 
+    // hide brewery info
     $("#breweryinfo").hide();
+    $("#sl_beers").hide();
 
-    // clear region container
+    // clean beers
+    $("#beerslist").empty();
+
+    // clear dropdowns
     $("#sl_region").empty();
-    // add default
+    $("#sl_category").empty();
+    $("#sl_type").empty();
+
+    // add defaults
     $("#sl_region").html("<option value='' disabled selected>Regions</option>");
+    $("#sl_category").html("<option value='' disabled selected>Beer Categories</option>");
+    $("#sl_type").html("<option value='' disabled selected>Beer Types</option>");
+
+    // disable type
+    document.getElementById("sl_type").disabled = true;
 
     // json call to load region dropdown
     $.getJSON("./assets/json/locations.json", function (array) {
@@ -63,15 +76,50 @@ $("#select").on("click", function (event) {
 // listener for region dropdown
 $(document).on("change", "#sl_region", function () {
 
+    // show brewery info card
+    $("#breweryinfo").show(500);
+
+    // get values
+    var locationid = $("option:selected", this).attr("locationid");
+    var breweryid = $("option:selected", this).attr("breweryid");
+
+    // clear dropdowns and beers
+    $("#sl_category").empty();
+    $("#sl_type").empty();
+    $("#beerslist").empty();
+
+    // add defaults
+    $("#sl_category").html("<option value='' disabled selected>Beer Categories</option>");
+    $("#sl_type").html("<option value='' disabled selected>Beer Types</option>");
+
+    // disable type
+    document.getElementById("sl_type").disabled = true;
+
+    // load brewery card
+    showBreweryCard(locationid, breweryid);
+});
+
+// listener for region dropdown
+$(document).on("change", "#sl_category", function () {
+
+    // enable type
+    document.getElementById("sl_type").disabled = false;
+
+    // show brewery info
     $("#breweryinfo").show(500);
 
     var locationid = $("option:selected", this).attr("locationid");
     var breweryid = $("option:selected", this).attr("breweryid");
 
+    // clear dropdowns
     $("#beerslist").empty();
+    $("#sl_type").empty();
+
+    //add defaults
+    $("#sl_type").html("<option value='' disabled selected>Beer Types</option>");
 
     // load brewery card
-    showBreweryCard(locationid, breweryid);
+    // showBreweryCard(locationid, breweryid);
 });
 
 // show brewery info
@@ -137,56 +185,86 @@ let showBreweryCard = function (locationid, breweryid) {
         }
     });
 
-    // get the beer ids from the master file
-    var beerids = [];
+    // json call for categories
+    var beercategories = [];
     $.getJSON("./assets/json/master.json", function (jsonmaster) {
 
         var master = jsonmaster.data;
 
-        for (var i = 1; i <= master.length - 1; i++) {
+        for (var i = 0; i <= master.length - 1; i++) {
 
-            console.log("comparing the breweryid: " + breweryid + " to " + master[i].F)
+            if (master[i].F == breweryid) {
 
-            if (master[i].F === breweryid) {
-
-                console.log("push into beerids array");
-
-                beerids.push(master[i].C);
-            }
-        }
-
-        console.log("beerids array after json call: ");
-        console.log(beerids);
-
-        $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
-
-            var alldata = jsonalldata.data;
-
-            for (var i = 0; i <= beerids.length - 1; i++) {
-
-                var beerid = beerids[i];
-
-                for (var ii = 0; ii <= alldata.length - 1; ii++) {
-
-                    if (beerid == alldata[ii].id) {
-
-                        // show beer
-                        $("#beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
-                            + "<div class='d-flex w-100 justify-content-between'>"
-                            + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
-                            + "</div>"
-                            + "<p class='mb-1'>" + alldata[ii].style.name + "</p>"
-                            + "<small class='text-muted'>" + alldata[ii].style.shortName + "</small>"
-                            + "</a>");
-
-                        break;
-                    }
-
+                if (canAddItemToArray(beercategories, master[i].D)) {
+                    beercategories.push(master[i].D);
                 }
             }
-        });
-
+        }
     });
+
+    console.log(beercategories);
+
+
+
+    // // get the beer ids from the master file
+    // var beerids = [];
+    // $.getJSON("./assets/json/master.json", function (jsonmaster) {
+
+    //     var master = jsonmaster.data;
+
+    //     for (var i = 1; i <= master.length - 1; i++) {
+
+    //         if (master[i].F === breweryid) {
+
+    //             beerids.push(master[i].C);
+    //         }
+    //     }
+
+    //     $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
+
+    //         var alldata = jsonalldata.data;
+
+    //         for (var i = 0; i <= beerids.length - 1; i++) {
+
+    //             var beerid = beerids[i];
+
+    //             for (var ii = 0; ii <= alldata.length - 1; ii++) {
+
+    //                 if (beerid == alldata[ii].id) {
+
+    //                     // show beer
+    //                     $("#beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
+    //                         + "<div class='d-flex w-100 justify-content-between'>"
+    //                         + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
+    //                         + "</div>"
+    //                         + "<p class='mb-1'>" + alldata[ii].style.name + "</p>"
+    //                         + "<small class='text-muted'>" + alldata[ii].style.shortName + "</small>"
+    //                         + "</a>");
+
+    //                     break;
+    //                 }
+
+    //             }
+    //         }
+    //     });
+
+    // });
+
+}
+
+let canAddItemToArray = function (array, item) {
+
+    var canAddCategory = true;
+
+    for (var i = 0; i <= array.length; i++) {
+
+        if (item === array[i]) {
+            canAddCategory = false;
+        }
+    }
+
+    return canAddCategory;
+
 }
 
 // ! my current location clicked
