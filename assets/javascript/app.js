@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v104");
+    console.log("app v105");
 };
 
 // ! beer icon thingy
@@ -196,60 +196,32 @@ let showBreweryCard = function (locationid, breweryid) {
             if (master[i].F == breweryid) {
 
                 if (canAddItemToArray(beercategories, master[i].D)) {
+
                     beercategories.push(master[i].D);
                 }
             }
         }
     });
 
-    console.log(beercategories);
+    // now show the categorie names in the dropdown
+    $.getJSON("./assets/json/beers2.json", function (beers2) {
 
+        var beers2 = beers2.data;
 
+        for (var x = 0; x <= beercategories.length; x++) {
 
-    // // get the beer ids from the master file
-    // var beerids = [];
-    // $.getJSON("./assets/json/master.json", function (jsonmaster) {
+            for (var i = 0; i <= beers2.length - 1; i++) {
 
-    //     var master = jsonmaster.data;
+                if (beers2[i].id == beercategories[x]) {
 
-    //     for (var i = 1; i <= master.length - 1; i++) {
+                    // add the item to the dropdown
+                    $("#sl_category").append("<option categoryid='" + beers2[i].id + "'>" + beers2[i].name + "</option>");
 
-    //         if (master[i].F === breweryid) {
+                }
+            }
 
-    //             beerids.push(master[i].C);
-    //         }
-    //     }
-
-    //     $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
-
-    //         var alldata = jsonalldata.data;
-
-    //         for (var i = 0; i <= beerids.length - 1; i++) {
-
-    //             var beerid = beerids[i];
-
-    //             for (var ii = 0; ii <= alldata.length - 1; ii++) {
-
-    //                 if (beerid == alldata[ii].id) {
-
-    //                     // show beer
-    //                     $("#beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
-    //                         + "<div class='d-flex w-100 justify-content-between'>"
-    //                         + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
-    //                         + "</div>"
-    //                         + "<p class='mb-1'>" + alldata[ii].style.name + "</p>"
-    //                         + "<small class='text-muted'>" + alldata[ii].style.shortName + "</small>"
-    //                         + "</a>");
-
-    //                     break;
-    //                 }
-
-    //             }
-    //         }
-    //     });
-
-    // });
-
+        }
+    });
 }
 
 let canAddItemToArray = function (array, item) {
@@ -607,7 +579,6 @@ let load_json_data = function (dropdown, parent) {
         }
 
     });
-
 }
 
 // listener for category dropdown
