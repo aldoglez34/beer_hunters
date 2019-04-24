@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v81");
+    console.log("app v82");
 };
 
 // ! beer icon thingy
@@ -40,6 +40,10 @@ $("#select").on("click", function (event) {
     $("#sl_region").empty();
     // add default
     $("#sl_region").html("<option value='' disabled selected>Select Region</option>");
+    // clear and disable dropdowns
+    $("#sl_brewery").empty();
+    document.getElementById("sl_brewery").disabled = true;
+
 
     // json call to load region dropdown
     $.getJSON("./assets/json/locations.json", function (array) {
@@ -66,7 +70,7 @@ $(document).on("change", "#sl_region", function () {
     // get the id
     var id = $("option:selected", this).attr("breweryid");
 
-    // clear and disable everything
+    // clear, enable and disable stuff
     $("#sl_brewery").empty();
     $("#sl_brewery").html("<option value='' disabled selected>Select Brewery</option>");
     document.getElementById("sl_brewery").disabled = false;
