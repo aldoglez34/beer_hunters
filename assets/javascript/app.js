@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v93");
+    console.log("app v94");
 };
 
 // ! beer icon thingy
@@ -34,7 +34,7 @@ $("#select").on("click", function (event) {
     // preventing default behavior
     event.preventDefault();
 
-    $("#breweryinfo").hide();
+    // $("#breweryinfo").hide();
 
     // clear region container
     $("#sl_region").empty();
@@ -69,18 +69,18 @@ $(document).on("change", "#sl_region", function () {
     var breweryid = $("option:selected", this).attr("breweryid");
 
     // load brewery card
-    showBrewery(locationid, breweryid);
+    showBreweryCard(locationid, breweryid);
 });
 
 // show brewery info
-let showBrewery = function (locationid, breweryid) {
+let showBreweryCard = function (locationid, breweryid) {
 
     // json call to find and show the location info
     $.getJSON("./assets/json/locations.json", function (array) {
 
         var data = array.data;
 
-        for (var i = 0; i <= data.length - 1; i++) {
+        for (var i = 0; i <= data.length; i++) {
 
             if (data[i].id == locationid) {
 
@@ -118,7 +118,7 @@ let showBrewery = function (locationid, breweryid) {
 
         var data = array.data;
 
-        for (var i = 0; i <= data.length - 1; i++) {
+        for (var i = 0; i <= data.length; i++) {
 
             if (data[i].id == breweryid) {
 
@@ -133,6 +133,49 @@ let showBrewery = function (locationid, breweryid) {
                 break;
             }
         }
+    });
+
+    // get the beer ids from the master file
+    var beerids = [];
+    $.getJSON("./assets/json/master.json", function (array) {
+
+        var data = array.data;
+
+        for (var i = 1; i <= data.length; i++) {
+
+            if (data[i].F == breweryid) {
+
+                beerids.push(data[i].C);
+            }
+        }
+
+        $.getJSON("./assets/json/alldata.json", function (array) {
+
+            var data = array.data;
+
+            for (var i = 0; i <= beerids.length; i++) {
+
+                var beerid = beerids[i];
+
+                for (var ii = 0; ii <= data.length; ii++) {
+
+                    if (beerid == data[i].id) {
+
+                        // show beer
+                        $("beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
+                            + "<div class= 'd-flex w-100 justify-content-between'>"
+                            + "<h5 class='mb-1'>" + data[i].name + "</h5>"
+                            + "</div>"
+                            + "<p class='mb-1'>" + data[i].style.name + "</p>"
+                            + "<small class='text-muted'>" + data[i].style.shortName + "</small>"
+                            + "</a>");
+
+                        break;
+                    }
+
+                }
+            }
+        });
     });
 }
 
@@ -344,7 +387,6 @@ let showRandomBeer = function () {
 
         // store the object from the json in a var
         var beer = response.data[r];
-        console.log(beer);
 
         // update the html - name
         $("#r_beername").text(beer.name);
