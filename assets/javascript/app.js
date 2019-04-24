@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v82");
+    console.log("app v83");
 };
 
 // ! beer icon thingy
@@ -43,6 +43,7 @@ $("#select").on("click", function (event) {
     // clear and disable dropdowns
     $("#sl_brewery").empty();
     document.getElementById("sl_brewery").disabled = true;
+    document.getElementById("sl_huntbttn").disabled = true;
 
 
     // json call to load region dropdown
