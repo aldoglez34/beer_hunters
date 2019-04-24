@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v75");
+    console.log("app v77");
 };
 
 // ! beer icon thingy
@@ -69,6 +69,7 @@ $("#select").on("click", function (event) {
 let canAddRegion = function (array, item) {
 
     console.log("now evaluating: " + item);
+    console.log(array);
 
     var canAddRegion = true;
 
@@ -82,6 +83,7 @@ let canAddRegion = function (array, item) {
     }
 
     console.log("canAddRegion: " + canAddRegion);
+
 
     return canAddRegion;
 }
