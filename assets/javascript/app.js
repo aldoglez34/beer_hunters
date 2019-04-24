@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v96");
+    console.log("app v97");
 };
 
 // ! beer icon thingy
@@ -161,15 +161,15 @@ let showBreweryCard = function (locationid, breweryid) {
 
                 for (var ii = 0; ii <= alldata.length; ii++) {
 
-                    if (beerid == alldata[i].id) {
+                    if (beerid == alldata[ii].id) {
 
                         // show beer
                         $("beerslist").append("<a href='#' class='list-group-item list-group-item-action'>" +
                             + "<div class= 'd-flex w-100 justify-content-between'>"
-                            + "<h5 class='mb-1'>" + alldata[i].name + "</h5>"
+                            + "<h5 class='mb-1'>" + alldata[ii].name + "</h5>"
                             + "</div>"
-                            + "<p class='mb-1'>" + alldata[i].style.name + "</p>"
-                            + "<small class='text-muted'>" + alldata[i].style.shortName + "</small>"
+                            + "<p class='mb-1'>" + alldata[ii].style.name + "</p>"
+                            + "<small class='text-muted'>" + alldata[ii].style.shortName + "</small>"
                             + "</a>");
 
                         break;
