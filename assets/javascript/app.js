@@ -665,7 +665,7 @@ $("#huntbttn").on("click", function () {
                                 $("#br_ibu").text(beer.ibu);
                             }
                             else {
-                                $("#br_ibu").text("-");
+                                $("#br_ibu").text("N/A");
                             }
 
                             // update the html - available
