@@ -53,23 +53,11 @@ $("#select").on("click", function (event) {
         // populate the regions array
         for (var i = 0; i <= data.length - 1; i++) {
 
-            regions.push(data[i]);
-            // $("#sl_region").append("<option locationid='" + data[i].id + "'>" + data[i].region + "</option>");
-        }
-
-        // eliminate duplicates
-        var uniqueRegions = [];
-
-        $.each(regions, function (i, el) {
-
-            if ($.inArray(el, uniqueRegions) === -1) {
-
-                uniqueRegions.push(el);
+            if (!regions.includes(data[i])) {
+                regions.push(data[i]);
                 $("#sl_region").append("<option locationid='" + data[i].id + "'>" + data[i].region + "</option>");
             }
-
-        });
-
+        }
     });
 
     // hide and show containers accordingly
