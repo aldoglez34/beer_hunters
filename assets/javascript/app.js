@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v111");
+    console.log("app v112");
 };
 
 // ! beer icon thingy
@@ -78,6 +78,9 @@ $(document).on("change", "#sl_region", function () {
 
     // show brewery info card
     $("#breweryinfo").show(500);
+
+    // empty beers
+    $("#sl_beers").empty();
 
     // get values
     var locationid = $("option:selected", this).attr("locationid");
