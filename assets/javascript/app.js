@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v87");
+    console.log("app v90");
 };
 
 // ! beer icon thingy
@@ -90,10 +90,17 @@ let showBrewery = function (locationid, breweryid) {
                 $("#locationname").text("Location: " + location.name);
                 $("#locationaddress").text("Address: " + location.streetAddress);
                 $("#locationpostalcode").text("Postal Code: " + location.postalCode);
-                $("#locationphone").text("Phone: " + location.phone);
+                if (typeof location.phone === "undefined") {
+
+                    $("#locationphone").text("No Phone");
+                }
+                else {
+
+                    $("#locationphone").text("Phone: " + location.phone);
+                }
                 if (typeof location.website === "undefined") {
 
-                    $("#locationwebsite").text("Website: -");
+                    $("#locationwebsite").text("No Website");
                 }
                 else {
 
