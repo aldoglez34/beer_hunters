@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v108");
+    console.log("app v109");
 };
 
 // ! beer icon thingy
@@ -121,6 +121,7 @@ $(document).on("change", "#sl_category", function () {
 // listener for type dropdown
 $(document).on("change", "#sl_type", function () {
 
+    $("#beersdiv").empty();
     $("#beersdiv").show(500);
 
     var typeid = $("option:selected", this).attr("typeid");
