@@ -9,7 +9,7 @@ window.onload = function () {
     $("#beerresultcontainer").hide();
 
     // app version
-    console.log("app v112");
+    console.log("app v113");
 };
 
 // ! beer icon thingy
@@ -82,6 +82,8 @@ $(document).on("change", "#sl_region", function () {
     // empty beers
     $("#sl_beers").empty();
 
+    $("#beersdiv").hide();
+
     // get values
     var locationid = $("option:selected", this).attr("locationid");
     var breweryid = $("option:selected", this).attr("breweryid");
@@ -114,6 +116,8 @@ $(document).on("change", "#sl_category", function () {
     $("#beerslist").empty();
     $("#sl_type").empty();
 
+    $("#beersdiv").hide();
+
     //add defaults
     $("#sl_type").html("<option value='' disabled selected>Beer Types</option>");
 
@@ -125,13 +129,12 @@ $(document).on("change", "#sl_category", function () {
 $(document).on("change", "#sl_type", function () {
 
     $("#beersdiv").show(500);
+    $("#sl_beers").empty();
 
     var typeid = $("option:selected", this).attr("typeid");
 
     // ? show beers
     $.getJSON("./assets/json/alldata.json", function (jsonalldata) {
-
-        $("#sl_beers").empty();
 
         var alldata = jsonalldata.data;
 
