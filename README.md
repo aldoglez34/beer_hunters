@@ -1,1 +1,1 @@
-# beer_hunters
+# Beer Hunters
